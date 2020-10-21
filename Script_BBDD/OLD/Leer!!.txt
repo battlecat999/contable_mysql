@@ -1,0 +1,2 @@
+Los Archivos cls99.lic y encrypasocv.dll
+copialos en: turuta\seipac_contable\Contable\bin\Debug

@@ -1,0 +1,1805 @@
+IdCuenta;Descripcion;Nivel;AceptaMovimiento
+10000000;ACTIVO;95;0
+11000000;ACTIVO CORRIENTE;94;0
+11100000;DISPONIBILIDADES;93;0
+11110100;Caja Moneda Nacional;1;1
+11110110;Caja Moneda Extranjera;1;1
+11110120;Caja Fondo Fijo Fábrica;1;1
+11110140;Caja Fondos Pend. s/Adjudicar;1;1
+11110199;Caja: Total;2;0
+50040011;Salario de Emergencia Ley 5244-San Luis-;1;1
+82081890;Gan.IVA Anses Dto.814/01;1;1
+11110210;Banco B.E.A.L.;1;1
+11513770;Ley 25413- Ret I.Gcias.Bco.Credicoop 33%;1;1
+11110250;Banco Galicia -;1;1
+11110270;Banco Patagonia;1;1
+11110272;Banco Lloyd´s ;1;1
+11110280;Banco Roberts;1;1
+11110281;Banco Bradesco;1;1
+11110282;Banco Roberts ;1;1
+11110283;Banco Banex S.A.;1;1
+11110288;Banco Credicoop;1;1
+11110289;Banco Credicoop C.Ahorro;1;1
+11110290;Banco Credicoop ;1;1
+11110285;Banco Lloyd's ;1;1
+11110286;Banco Macro U$S;1;1
+11110299;Bancos: Total;2;0
+11110320;Valores a Depositar;1;1
+11110321;Valores a Depositar (En Garantía);1;1
+11110322;Valores a Depositar ;1;1
+11110330;Recaudacion Centralizada;1;1
+11110399;Valores a Depositar: Total;2;1
+11110999;TOTAL DISPONIBILIDADES;3;0
+11200000;INVERSIONES;93;0
+11210500;Aportes en Sociedades Controladas;1;1
+11210510;Aportes en Seipac Do Brasil;1;1
+11210550;Aportes en Sociedades: Total;2;1
+11210555;Bono Solidario: (Titulos - V.de O.);1;1
+11210557;Bono Solidario: (Cr.Fiscal - V.de O.);1;1
+11210559;Bono Solidario (V.de O.): Total;2;0
+11210575;Bono Solidario: (Titulos - Actualiz.);1;1
+11210577;Bono Solidario: (Cr.Fiscal - Actualiz.);1;1
+11210579;Bono Solidario (Actualiz.): Total;2;0
+11210600;Ahorro Obligatorio ;1;1
+11210699;Ahorro Obligatorio: Total;2;0
+11210700;Intereses Ahorro Obligatorio ;1;1
+11210799;Intereses Ahorro Obligatorio: Total;2;0
+11210800;Depósitos a Plazo Fijo;1;1
+11210801;Depósito a Plazo Fijo (Banco Almafuerte);1;1
+11210810;Depósito a Plazo Fijo (Banco B.E.A.L.);1;1
+11210820;Depósito a Plazo Fijo (Banco Roberts);1;1
+11210840;Depósito a Plazo Fijo (Banco Rio );1;1
+11210899;Depósito a Plazo Fijo: Total;2;0
+11210900;Bonos Externos;1;1
+11210905;Bonos Externos (Serie 82);1;1
+11210910;Bonos Externos (Serie 89);1;1
+11210950;Bonos Externos: Total;2;0
+11210960;Bocones;1;0
+11210961;Bocones PR II;1;1
+11210970;Bocones: Total;2;0
+11210980;Acciones de Sociedades;1;1
+11210985;Acciones de _______________;1;1
+11210986;Acciones de _______________;1;1
+11210990;Acciones de Sociedades: Total;2;0
+11210999;TOTAL INVERSIONES;3;0
+11300000;CREDITOS POR VENTAS;93;0
+11311500;Deudores por Ventas (Terceros);1;1
+11311510;Deudores por Ventas (Sta.Rosa);1;1
+11311520;Deudores por Ventas (Loboquim);1;1
+11311530;Deudores por ventas (Seipac);1;1
+11615150;Mat.Primas (Comp.): Colorantes;1;1
+11311541;Deudores por Ventas (F-517 Clientes en Gestión;1;1
+11311550;Previsión Incobrabilidad;1;1
+11311599;Deudores por Ventas: Total;2;0
+11311610;Deudores por Import.por cta.de Sta.Rosa;1;1
+11311611;Deudores por Import.por cta.de Loboquim;1;1
+11311612;Deudores por Import.por cta.de Seipac;1;1
+11311650;Deudores por Importaciones: Total;2;0
+11311660;Deudores por Exportaciones;1;1
+11311664;Deudores por Exportaciones (Brasil);1;1
+11311665;Deudores por Exportaciones (O.Paises);1;1
+11110295;Banco Nación Lecops;1;1
+11311679;Deudores por Exportaciones: Total;2;0
+11311680;Reintegro por Exportaciones;1;1
+11311685;Reintegro por Export.Nº__________;1;1
+11311686;Reintegro por Export.Nº__________;1;1
+11311699;Reintegro por Exportaciones: Total;2;0
+11311700;Deudores en Gestión Letrada;1;1
+11311710;Deudores en Gestión Letrada (Doc.);1;1
+11311720;Deudores en Gestión Letrada (Ch.);1;1
+11311725;Deudores p/Fideicomiso (Ch.);1;1
+11311730;Deudores en Gestión Letrada (Fact.);1;1
+11311799;Deudores en Gestion Letrada: Total;2;0
+11311800;Documentos a Cobrar;1;1
+11311801;Documentos a Cobrar Varios (Sr.B.Fallaschi);1;1
+11311810;Documentos en Suspenso;1;1
+11311830;Facturas de Cr. a Cobrar;1;1
+11311840;Facturas Cedidas p/Gatic S.A. a Cobrar;1;1
+11311899;Documentos: Total;2;0
+11311999;TOTAL CREDITOS POR VENTAS;3;0
+11400000;ANTICIPOS;93;0
+11412100;Anticipos a Proveedores;1;1
+11412105;Anticipos a Proveedores ;1;1
+11412110;Anticipos a Santa Rosa;1;1
+11412120;Anticipos a Loboquim;1;1
+11412130;Anticipos a Seipac;1;1
+11412140;Anticipos a Proveedores Exterior;1;1
+11412150;Anticipos a Seipac Do Brasil;1;1
+11412160;Anticipos p/Viajes al Exterior;1;1
+11412170;Anticipos al Personal: Sueldos;1;1
+11412171;Anticipos al Personal: Jornales;1;1
+11412199;Anticipos: Total;2;0
+11412200;Depósitos Previos p/Importaciones;1;1
+11412210;Depósitos Previos p/Importaciones;1;1
+11412220;Depósitos Previos p/Importaciones;1;1
+11412230;Depósitos Previos p/Importaciones;1;1
+11412240;Depósitos Previos p/Importaciones;1;1
+11412250;Depósitos Previos p/Importaciones;1;1
+11412260;Depósitos Previos p/Importaciones;1;1
+11412270;Depósitos Previos p/Importaciones;1;1
+11412280;Depósitos Previos p/Importaciones;1;1
+11412290;Depósitos Previos p/Importaciones;1;1
+11412300;Depósitos Previos p/Importaciones;1;1
+11412399;Depósitos Previos: Total;2;0
+11412400;Antic.Honorarios a Direct.Sr. J.L.B.;1;1
+11412410;Antic.Honorarios a Direct.Sr. A.C.M.;1;1
+11412420;Antic.Honorarios a Direct.Sra.N.B.de B.;1;1
+11412430;Antic.Honorarios a Direct.Sr. E.P.B.;1;1
+11412440;Antic.Honorarios a Direct.Sr. S.G.M.;1;1
+11412450;Antic.Honorarios a Direct.Sra. P.B.de B.;1;1
+11412460;Antic.Honorarios a Direct.Sr. I.G.de M.;1;1
+11412499;Anticipo Honorarios a Directores: Total;2;0
+11413010;Seguros a Devengar en: ENE;1;1
+11413020;Seguros a Devengar en: FEB;1;1
+11413030;Seguros a Devengar en: MAR;1;1
+11413040;Seguros a Devengar en: ABR;1;1
+11413050;Seguros a Devengar en: MAY;1;1
+11413060;Seguros a Devengar en: JUN;1;1
+11413070;Seguros a Devengar en: JUL;1;1
+11413080;Seguros a Devengar en: AGO;1;1
+11413090;Seguros a Devengar en: SET;1;1
+11616411;Imp,. en trámite: - Otros insumos -;1;1
+11110145;Caja Patacones;1;1
+12521300;Bonos Ganancias a Recuperar;1;1
+12521400;Bonos Capitales a Recuperar;1;1
+12521500;Bonos Activos a Recuperar;1;1
+12521600;Bonos IVA Saldo (C.P.) a utilizar;1;1
+12521700;Bonos IVA Compras (C.P.) a utilizar;1;1
+12521800;Bonos IVA Ganancias (C.P.) a utilizar;1;1
+12521900;Bonos IVA Activos (C.P.) a utilizar;1;1
+12522600;Bonos IVA Saldo Largo Plazo (a gozar);1;1
+12522700;Bonos IVA Compras (L.P.) a utilizar;1;1
+12522800;Bonos IVA Ganancias (L.P.) a utilizar;1;1
+12522900;Bonos IVA Activos (L.C.) a utilizar;1;1
+12522999;Bonos: Total;2;0
+12523999;TOTAL OTROS CREDITOS;3;0
+12529990;TOTAL ACTIVO NO CORRIENTE;4;0
+12529999;GRAN TOTAL ACTIVO;5;0
+20000000;PASIVO;95;0
+21000000;PASIVO CORRIENTE;94;0
+21100000;DEUDAS COMERCIALES;93;0
+21122100;Proveedores Locales Terceros;1;1
+21122101;Bonos I.V.A. Comp.F-517 a entregar;1;1
+21122110;Proveedores Locales Sta.Rosa;1;1
+21122120;Proveedores Locales Loboquim;1;1
+21122130;Proveedores Locales Seipac;1;1
+21122131;Proveedores Locales Seipac Form.517 a Ent.;1;1
+21122140;Proveedores Locales ;1;1
+21122150;Proveedores Locales p/Import.(S.de C.);1;1
+21122160;Proveedores Locales p/Import.(R.A.G.);1;1
+21122170;Proveedores Locales p/Export.(S.de C.);1;1
+21122175;Proveedores Locales p/Export.(R.A.G.);1;1
+21122199;Proveedores P/Importaciones;2;0
+21122200;Proveed.p/Import.(Terceros);1;1
+21122210;Proveed.p/Import.(Sta.Rosa);1;1
+21122220;Proveed.p/Import. (ManuLab);1;1
+21122230;Proveed.p/Import.Embarcadas;1;1
+21428515;Imp.Ing. Brutos Bs.As. - Moratoria -;1;1
+21122299;Proveed.p/Import.:Total;2;0
+21122300;Obligaciones a Pagar;1;1
+21122301;Obligaciones a Pagar (En Pesos);1;1
+21122302;Obligaciones a Pagar (En Dolares);1;1
+21122399;Obligaciones a Pagar: Total;2;0
+21122400;Deudas Comerciales c/Garantía Real;1;1
+21122410;Proveedores Loacales (c/Gtía.Prendaria);1;1
+21122499;Proveedores Locales c/Garantía: Total;2;0
+21122999;TOTAL DEUDAS COMERCIALES;3;0
+21200000;DEUDAS BANCARIAS;93;0
+21223000;Banco Credicoop Préstamo;1;1
+21223010;Banco Macro;1;1
+21223030;Banco Rio de la Plata;1;1
+21223040;Otros Bancos;1;1
+21223041;Banco Pinebank;1;1
+21223042;Banco Pinebank (intereses);1;1
+21223050;Banco Robert's;1;1
+21223060;Banco Robert's (Anticipos);1;1
+21223899;Bancos: Total;2;0
+21223999;TOTAL DEUDAS BANCARIAS;3;0
+21300000;DEUDAS SOCIALES;93;0
+21323100;Retenc.al Personal: D.N.R.P.;1;1
+21323101;Retenc.al Personal: I.N.S.S.J.P.;1;1
+21323110;Retenc.al Personal: F.E.C.(Cap.-Lanus-Lobos);1;1
+21323131;Retenc.al Personal: F.E.C. (0,5%);1;1
+21323140;Retenc.al Personal: O.S.E.C.A.C. ;1;1
+21323150;Retenc.al Personal: O.S.D.E.;1;1
+21424910;IVA Cr.Fiscal A Computar en Set/2002 - 21% -;1;1
+21323170;Retenc.al Personal: A.M.S.S.A.L.;1;1
+21323180;Retenc.al Personal: O.S.P.I.Q.y P. (SR);1;1
+21323190;Retenc.al Personal: Imp.Ganancias;1;1
+21323183;Retenc.al Personal: Sindicato;1;1
+21323184;Retenc.al Personal: Adic.Obras Sociales;1;1
+21323199;Retenciones al Personal: Total;2;0
+21323200;Leyes Soc.a Pagar: D.N.R.P.-FO.NA.VI.;1;1
+21323210;Leyes Soc.a Pagar: I.N.S.S.J.P.;1;1
+21323230;Leyes Soc.a Pagar: A.M.S.S.A.L.;1;1
+21323240;Leyes Soc.a Pagar: O.S.E.C.A.C.;1;1
+21323250;Leyes Soc.a Pagar: O.S.D.E.;1;1
+21323251;Leyes Soc.a Pagar: Adicional O.S.D.E.;1;1
+11513749;IVA Cr.Fiscal(R. G. 3431-A Computar en Set-2002-;1;1
+21323270;Leyes Soc.a Pagar: O.S.P.I.Q.y P.;1;1
+21323280;Leyes Soc.a Pagar: F.A.D.I.P.y T.;1;1
+21323290;Leyes Soc.a Pagar: C.A.S.F.P.I.;1;1
+21323300;Leyes Soc.a Pagar: C.A.S.F.E.C.;1;1
+21323310;Leyes Soc.a Pagar: Jubil. Privada (3,5%);1;1
+21323320;Leyes Soc.a Pagar: Art. (Ley 24557);1;1
+21323321;Leyes Soc.a Pagar: Fondo Comp.Dto.590/97;1;1
+21323350;ANSES (Dif.Devengamiento vs. DGI);1;1
+21323399;Leyes Sociales a Pagar: Total;2;0
+21323400;Sueldo Anual Complementario: Sueldos;1;1
+21323401;Sueldo Anual Complementario: Jornales;1;1
+21323402;Leyes Sociales s/S.A.C.;1;1
+21323403;Leyes Sociales s/Vacaciones;1;1
+21323420;Vacaciones: Sueldos;1;1
+21323421;Vacaciones: Jornales;1;1
+21323499;S.A.C. y Vacaciones: Total;2;0
+21323500;Sueldos ;2;0
+21323501;Sueldos a Pagar;1;1
+21323502;Sueldos a Pagar: S.A.C.;1;1
+21323503;Sueldos a Pagar p/Gratif.;1;1
+21323504;Sueldos a Pagar;1;1
+21323505;Sueldos a Pagar p/Despidos;1;1
+21323506;Sueldos a Pagar p/Gratif.;1;1
+21323599;Sueldos y Jornales a Pagar: Total;2;0
+21323999;TOTAL DEUDAS SOCIALES;3;0
+21400000;DEUDAS FISCALES;93;0
+21424000;Imp.Ganancias Retenido a 3ros.;1;1
+21424010;Imp.Ganancias Ret. a Directores s/Honorarios;1;1
+21424020;Imp.Ganancias Ret. a Directores s/Dividendos;1;1
+21424099;Imp.Ganancias Retenido: Total;2;0
+21424101;I.V.A. Débito Facturación         ENE.;1;1
+21424102;I.V.A. Crédito Compras            ENE.;1;1
+21424103;I.V.A. Crédito Liberado             ENE.;1;1
+21424104;I.V.A. Pagado                         ENE.;1;1
+21424105;I.V.A. DDJJ Saldo 1º Párrafo     ENE.;1;1
+21424106;I.V.A. Débito Respons.No Insc  ENE;1;1
+21424107;I.V.A. S/Op.Bcos.y Financ. ENE. RG 549;1;1
+21424108;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424109;I.V.A. a Computar Nvo.Ejercicio ENE.;1;1
+21424199;I.V.A. Enero: Total;2;0
+21424201;I.V.A. Débito Facturación           FEB.;1;1
+21424202;I.V.A. Crédito Compras              FEB.;1;1
+21424203;I.V.A. Crédito Liberado               FEB.;1;1
+21424204;I.V.A. Pagado                            FEB.;1;1
+21424205;I.V.A. DDJJ Saldo 1º Párrafo       FEB.;1;1
+21424206;I.V.A. Débito Respons.No Insc.   FEB.;1;1
+21424207;I.V.A. S/Op.Bcos.y Financ.  FEB. RG 549;1;1
+21424208;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424299;I.V.A. Febrero: Total;2;0
+21424301;I.V.A. Débito Facturación           MAR.;1;1
+21424302;I.V.A. Crédito Compras              MAR.;1;1
+21424303;I.V.A. Crédito Liberado               MAR.;1;1
+21424304;I.V.A. Pagado                            MAR;1;1
+21424305;I.V.A. DDJJ Saldo 1º Párrafo       MAR.;1;1
+21424306;I.V.A. Débito Respons.No Insc.   MAR.;1;1
+21424307;I.V.A. S/Op.Bcos.y Financ.  MAR. RG 549;1;1
+21424308;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+12118400;Máq.y Equipos: V.O.;1;1
+12118410;Máq.y Equipos: Adic.del Ejerc.;1;1
+12118420;Máq.y Equipos: Actualiz.Acum.;1;1
+12118430;Máq.y Equipos: Actualiz.del Ejerc.;1;1
+12118440;Máq.y Equipos: Depreciac.Acum.;1;1
+12118450;Máq.y Equipos: Depreciac.del Ejerc.;1;1
+12118499;Máquinas y Equipos: Total;2;0
+12118500;Terrenos: V.O.;1;1
+12118505;Terrenos: Adic.del Ejerc.;1;1
+12118510;Terrenos: Actualiz.Acum.;1;1
+12118520;Terrenos: Actualiz.del Ejerc.;1;1
+12118599;Terrenos: Total;2;0
+12118600;Plataforma Flotante;1;1
+12118610;Plat.Flotante: V.O.;1;1
+12118620;Plat.Flotante: Adic.del Ejerc.;1;1
+12118630;Plat.Flotante: Actualiz.Acum.;1;1
+12118640;Plat.Flotante: Actualiz.del Ejerc.;1;1
+12118650;Plat.Flotante: Depreciac.Acum.;1;1
+12118660;Plat.Flotante: Deprec.del Ejercicio;1;1
+12118699;Plataforma Flotante: Total;2;0
+12118999;TOTAL BIENES DE USO;3;0
+12200000;INVERSIONES;93;0
+12219000;Ahorro Obligatorio ;1;1
+12219099;Ahorro Obligatorio: Total;2;0
+12219100;Int.Ahorro Obligatorio;1;1
+12219199;Int.Ahorro Obligatorio: Total;2;0
+12219200;Bono Solidario: V. de Origen;1;1
+12219299;Bono Solidario (V.de O.): Total;2;0
+12219345;Bono Solidario: (Titulos - Actualiz.);1;1
+12219350;Bono Solidario: (Cr.Fiscal - Actualiz.);1;1
+12219399;Bono Solidario (Actualiz.): Total;2;0
+12219499;TOTAL INVERSIONES;3;0
+12300000;ANTICIPOS;93;0
+12319500;Seguros a Devengar en: ENE;1;1
+12319510;Seguros a Devengar en: FEB;1;1
+12319520;Seguros a Devengar en: MAR;1;1
+12319530;Seguros a Devengar en: ABR;1;1
+12319540;Seguros a Devengar en: MAY;1;1
+12319550;Seguros a Devengar en: JUN;1;1
+12319560;Seguros a Devengar en: JUL;1;1
+12319570;Seguros a Devengar en: AGO;1;1
+12319580;Seguros a Devengar en: SET;1;1
+12319590;Seguros a Devengar en: OCT;1;1
+12319600;Seguros a Devengar en: NOV;1;1
+12319610;Seguros a Devengar en: DIC;1;1
+12319615;Seguros a Devengar en: ENE;1;1
+12319616;Seguros a Devengar en: FEB;1;1
+12319617;Seguros a Devengar en: MAR;1;1
+12319618;Seguros a Devengar en: ABR;1;1
+12319619;Seguros a Devengar en: MAY;1;1
+12319620;Seguros a Devengar en: JUN;1;1
+12319621;Seguros a Devengar en: JUL;1;1
+12319622;Seguros a Devengar en: AGO;1;1
+12319623;Seguros a Devengar en: SET;1;1
+12319624;Seguros a Devengar en: OCT;1;1
+12319625;Seguros a Devengar en: NOV;1;1
+12319626;Seguros a Devengar en: DIC;1;1
+12319690;Seguros Anticipados: Total;2;0
+12319699;TOTAL ANTICIPOS;3;0
+12400000;CREDITOS POR VENTAS;3;0
+11615418;Importaciones en Trámite;1;1
+12419500;Reclamos Judiciales;1;1
+12419501;Convocatoria Estex S.A.  5% Vto. Abr./2001;1;1
+12419502;Convocatoria Estex S.A. 10% Vto. Abr./2002;1;1
+12419503;Convocatoria Estex S.A. 10% Vto. Abr./2003;1;1
+12419504;Convocatoria Estex S.A. 15% Vto. Abr./2004;1;1
+12419505;Convocatoria Estex S.A. 15% Vto. Abr./2005;1;1
+12419506;Convocatoria Estex S.A. 20% Vto. Abr./2006;1;1
+12419507;Convocatoria Estex S.A. 20% Vto. Abr./2007;1;1
+12500000;OTROS CREDITOS;93;0
+12519100;Imp.a las Ganancias Dec.#2054/92 (1992);1;1
+12519101;Imp.a las Ganancias Dec.#2054/92 (1993);1;1
+12519102;Imp.a las Ganancias Dec.#2054/92 (1994);1;1
+12519103;Imp.a las Ganancias Dec.#2054/92 (1995);1;1
+12519104;Imp.a las Ganancias Dec.#2054/92 (1996);1;1
+12519105;Imp.a las Ganancias Dec.#2054/92 (1997);1;1
+12519106;Imp.a las Ganancias Dec.#2054/92 (1998);1;1
+12519107;Imp.a las Ganancias Dec.#2054/92 (1999);1;1
+12519108;Imp.a las Ganancias Dec.#2054/92 (2000);1;1
+12519109;Imp.a las Ganancias Dec.#2054/92 (2001);1;1
+12519110;Imp.a las Ganancias Dec.#2054/92 (2002);1;1
+12519120;Imp. I.V.A. Decr.# 2054/92 (1992);1;1
+12519121;Imp. I.V.A. Decr.# 2054/92 (1993);1;1
+12519122;Imp. I.V.A. Decr.# 2054/92 (1994);1;1
+12519123;Imp. I.V.A. Decr.# 2054/92 (1995);1;1
+12519124;Imp. I.V.A. Decr.# 2054/92 (1996);1;1
+12519125;Imp. I.V.A. Decr.# 2054/92 (1997);1;1
+12519126;Imp. I.V.A. Decr.# 2054/92 (1998);1;1
+12519127;Imp. I.V.A. Decr.# 2054/92 (1999);1;1
+12519128;Imp. I.V.A. Decr.# 2054/92 (2000);1;1
+12519129;Imp. I.V.A. Decr.# 2054/92 (2001);1;1
+12519130;Imp. I.V.A. Decr.# 2054/92 (2002);1;1
+12519200;Imp.a los Activos Dec.# 2054/92 (1992);1;1
+12519201;Imp.a los Activos Dec.# 2054/92 (1993);1;1
+12519202;Imp.a los Activos Dec.# 2054/92 (1994);1;1
+12519203;Imp.a los Activos Dec.# 2054/92 (1995);1;1
+12519204;Imp.a los Activos Dec.# 2054/92 (1996);1;1
+12519205;Imp.a los Activos Dec.# 2054/92 (1997);1;1
+12519206;Imp.a los Activos Dec.# 2054/92 (1998);1;1
+12519207;Imp.a los Activos Dec.# 2054/92 (1999);1;1
+12519208;Imp.a los Activos Dec.# 2054/92 (2000);1;1
+12519209;Imp.a los Activos Dec.# 2054/92 (2001);1;1
+12519210;Imp.a los Activos Dec.# 2054/92 (2002);1;1
+12519220;Imp. I.V.A. Decr.# 2054/92 Saldos (1992);1;1
+12519221;Imp. I.V.A. Decr.# 2054/92 Saldos (1993);1;1
+12519222;Imp. I.V.A. Decr.# 2054/92 Saldos (1994);1;1
+12519223;Imp. I.V.A. Decr.# 2054/92 Saldos (1995);1;1
+12519224;Imp. I.V.A. Decr.# 2054/92 Saldos (1996);1;1
+12519225;Imp. I.V.A. Decr.# 2054/92 Saldos (1997);1;1
+12519226;Imp. I.V.A. Decr.# 2054/92 Saldos (1998);1;1
+12519227;Imp. I.V.A. Decr.# 2054/92 Saldos (1999);1;1
+12519228;Imp. I.V.A. Decr.# 2054/92 Saldos (2000);1;1
+12519229;Imp. I.V.A. Decr.# 2054/92 Saldos (2001);1;1
+12519230;Imp. I.V.A. Decr.# 2054/92 Saldos (2002);1;1
+12519299;Impuestos Decreto # 2054/92: Total;2;0
+12519700;Imp.IVA Susp.a Recup. L-23697 (V.N.);1;1
+12519710;Imp.IVA Susp.a Recup. L-23697 (Act.);1;1
+12519799;Imp.IVA Susp.a Recuperar: Total;2;0
+12519800;Imp.Gan. Susp.a Recup. L-23697 (V.N.);1;1
+12519810;Imp.Gan. Susp.a Recup. L-23697 (Act.);1;1
+12519899;Imp.Ganancias a Recuperar: Total;2;0
+12519900;Imp.Cap. Susp.a Recup. L-23697 (V.N.);1;1
+12519910;Imp.Cap. Susp.a Recup. L-23697 (Act.);1;1
+12519999;Imp.Capitales a Recuperar: Total;2;0
+12520100;Imp.Act. Susp.a Recup. L-23697 (V.N.);1;1
+12520110;Imp.Act. Susp.a Recup. L-23697 (Act.);1;1
+12520199;Imp.Activos Susp.a Recuperar: Total;2;0
+12521100;Bonos IVA Saldo a Recuperar;1;1
+12521200;Bonos IVA Compras a Recuperar;1;1
+70064911;Films p/Impresión Espectral Colorantes;1;1
+11514599;Garantía: Total;2;0
+11514700;Deudores Varios - N.B.de B.;1;1
+11514710;Deudores Varios - I.G.de M.;1;1
+11514720;Deudores Varios -Emauel M.B;1;1
+11514730;Deudores Varios - J.L.B.;1;1
+11514740;Deudores Varios - E.P.B.;1;1
+11514750;Deudores Varios - A.C.M.;1;1
+11514760;Deudores Varios - S.G.M.;1;1
+11514770;Deudores Varios - M.B.;1;1
+11514799;Deudores Varios: Total;2;0
+11514800;Blanqueo a Cobrar;2;1
+11514900;Dividendos a Cobrar;2;1
+11514920;Alquileres a Cobrar;2;1
+11514999;TOTAL OTROS CREDITOS;3;0
+11600000;BIENES DE CAMBIO;93;0
+11615000;Mat.Primas (STK): Ptos.Quimicos;1;1
+11615100;Mat.Primas (STK): Sust.Químicas Básicas;1;1
+11615110;Mat.Primas (STK): Intermediarios;1;1
+11615115;Mat.Primas (STK): Plastificantes;1;1
+11615116;Mat.Primas (STK): Para Plastificantes;1;1
+11615120;Mat.Prima (Comp.): Ptos.Quimicos;1;1
+11615130;Mat.Prima (Comp.): Sust.Químicas Básicas;1;1
+11615131;Mat.Prima (Comp.): Para Plastificantes;1;1
+11615133;Mat.Prima (Comp.): En General;1;1
+11615199;Materias Primas: Total;2;0
+11615200;Ptos.Terminados (STK): Sust.Químicos Básicos;1;1
+11615210;Ptos.Terminados (STK): Prod.Quimicos Auxiliares;1;1
+11615220;Ptos.Terminados (STK): Plastificantes;1;1
+11615223;Ptos.Terminados (STK): Otros;1;1
+11615229;Productos Terminados: Total;2;0
+11615240;Mat.Auxiliares: Tambores;1;1
+11615241;Mat.Auxiliares: Bolsas;1;1
+11615242;Mat.Auxiliares: Otros;1;1
+11615249;Mat.Auxiliares: Total;2;0
+11615500;Importaciones en Trámite: Dif.de Cambio;1;1
+90099120;REI Gastos Comercialización;1;1
+85085800;Pérdida por Venta Bienes de Uso;1;1
+11615289;Consumo Prod. Terminados: Total;2;0
+11615300;Importaciones en Trámite;1;1
+11615301;Importaciones en Trámite;1;1
+11615302;Importaciones en Trámite;1;1
+11615303;Importaciones en Trámite;1;1
+11615304;Importaciones en Trámite;1;1
+11615305;Importaciones en Trámite;1;1
+11615306;Importaciones en Trámite;1;1
+11615307;Importaciones en Trámite;1;1
+11615308;Importaciones en Trámite;1;1
+11615309;Importaciones en Trámite;1;1
+11615310;Importaciones en Trámite;1;1
+11615311;Importaciones en Trámite;1;1
+11615312;Importaciones en Trámite;1;1
+11615313;Importaciones en Trámite;1;1
+11615314;Importaciones en Trámite ;1;1
+11615315;Importaciones en Trámite ;1;1
+11615316;Importaciones en Trámite ;1;1
+11615317;Importaciones en Trámite ;1;1
+11615318;Importaciones en Trámite;1;1
+11615319;Importaciones en Trámite;1;1
+11615320;Importaciones en Trámite;1;1
+11615321;Importaciones en Trámite;1;1
+11615322;Importaciones en Trámite;1;1
+11615323;Importaciones en Trámite;1;1
+11615324;Importaciones en Trámite;1;1
+11615325;Importaciones en Trámite;1;1
+11615326;Importaciones en Trámite;1;1
+11615327;Importaciones en Trámite;1;1
+11615328;Importaciones en Trámite;1;1
+11615329;Importaciones en Trámite;1;1
+11615330;Importaciones en Trámite;1;1
+11615450;Importaciones en Trámite Temp.-Máquina Corino;1;1
+11615451;Importaciones en Trámite Temp.-Máquina Mainox;1;1
+11615452;Importaciones en Trámite Máquinas Decr.612/97;1;1
+11615599;Importaciones en Trámite: Total;2;0
+11615600;Mercaderia en Aduana;1;1
+11615610;Mercaderia en Aduana;1;1
+11615620;Mercaderia en Aduana;1;1
+11615630;Mercaderia en Aduana;1;1
+11615640;Mercaderia en Aduana;1;1
+11615650;Mercaderia en Aduana: Total;2;0
+11615700;Mercaderías de 3ros.;1;1
+11615701;Mercaderías de 3ros.;1;1
+11615702;Mercaderías Recibidas de 3ros.;1;1
+11615739;Mercadería de 3ros.: Total;2;0
+11615800;TOTAL BIENES DE CAMBIO;3;0
+11615990;TOTAL ACTIVO CORRIENTE;4;0
+12000000;ACTIVO NO CORRIENTE;94;0
+12100000;BIENES DE USO;93;0
+12117000;Obras en Curso Edificios: Mano de Obra;1;1
+12117010;Obras en Curso Edificios: Materiales;1;1
+12117020;Obras en Curso Edificios: Gastos Varios;1;1
+12117025;Obras en Curso Edif.de Terceros Decr.612/97;1;1
+12117030;Obras en Curso Instalac.: Mano de Obra;1;1
+12117040;Obras en Curso Instalac.: Materiales;1;1
+12117050;Obras en Curso Instalac.: Gastos Varios;1;1
+12117060;Obras en Curso Terreno V.O.;1;1
+12117061;Obras en Curso Terreno: Mano de Obra;1;1
+12117062;Obras en Curso Terreno: Materiales;1;1
+12117063;Obras en Curso Terreno: Gtos.Varios;1;1
+12117064;Obras en Curso: Derechos e Impuestos;1;1
+12117099;Obras en Curso: Total;2;0
+12118000;Edificios:  V.O.;1;1
+12118001;Edificios de 3ros.: Mejoras;1;1
+12118010;Edificios: Adic.del Ejerc.;1;1
+12118020;Edificios: Actualiz.Acum.;1;1
+12118030;Edificios: Actualiz.del Ejerc.;1;1
+12118040;Edificios: Depreciac.Acum.;1;1
+12118050;Edificios: Depreciac.del Ejerc.;1;1
+12118099;Edificios: Total;2;0
+12118100;Instalaciones: V.O.;1;1
+12118110;Instalaciones: Adic.del Ejerc.;1;1
+12118120;Instalaciones: Actualiz.Acum.;1;1
+12118130;Instalaciones: Actualiz.del Ejerc.;1;1
+12118140;Instalaciones: Depreciac.Acum.;1;1
+12118150;Instalaciones: Depreciac.del Ejerc.;1;1
+12118199;Instalaciones: Total;2;0
+12118200;Rodados: (Automóviles) V.O.;1;1
+12118202;Rodados: (Automóviles) Adic.del Ejerc.;1;1
+12118204;Rodados: (Automóviles) Actualiz.Acum.;1;1
+12118206;Rodados: (Automóviles) Actualiz.del Ej.;1;1
+12118208;Rodados: (Automóviles) Depreciac.Acum.;1;1
+12118210;Rodados: (Automóviles) Depreciac.del Ej.;1;1
+12118250;Rodados: (Automoviles) Total;2;0
+12118270;Rodados:(Camiones-Utilitarios) V.de O.;1;1
+12118272;Rodados:(Camiones-Utilitarios) Adic.Ejerc.;1;1
+12118274;Rodados:(Camiones-Utilitarios) Act.Acum.;1;1
+12118276;Rodados:(Camiones-Utilitarios) Act.Ejerc.;1;1
+12118280;Rodados:(Camiones-Utilitarios) Dep.Acum.;1;1
+12118282;Rodados:(Camiones-Utilitarios) Dep.Ejerc.;1;1
+12118290;Rodados:(Camiones-Utilitarios) Total;2;0
+12118299;Rodados: Total;2;0
+12118300;Muebles y Utiles: V.O.;1;1
+12118310;Muebles y Utiles: Adic.del Ejerc.;1;1
+12118320;Muebles y Utiles: Actualiz.Acum.;1;1
+12118330;Muebles y Utiles: Actualiz.del Ejerc.;1;1
+12118340;Muebles y Utiles: Depreciac.Acum.;1;1
+12118350;Muebles y Utiles: Depreciac.del Ejerc.;1;1
+12118399;Muebles y Utiles: Total;2;0
+11413100;Seguros a Devengar en: OCT;1;1
+11413110;Seguros a Devengar en: NOV;1;1
+11413120;Seguros a Devengar en: DIC;1;1
+11413200;Seguros a Devengar en: ENE;1;1
+11413210;Seguros a Devengar en: FEB;1;1
+11413220;Seguros a Devengar en: MAR;1;1
+11413230;Seguros a Devengar en: ABR;1;1
+11413240;Seguros a Devengar en: MAY;1;1
+11413250;Seguros a Devengar en: JUN;1;1
+11413260;Seguros a Devengar en: JUL;1;1
+11413270;Seguros a Devengar en: AGO;1;1
+11413280;Seguros a Devengar en: SET;1;1
+11413290;Seguros a Devengar en: OCT;1;1
+11413300;Seguros a Devengar en: NOV;1;1
+11413310;Seguros a Devengar en: DIC;1;1
+11413398;Seguros Anticipados: Total;2;0
+11413401;Intereses a Devengar ENE.(1ºAño);1;1
+11413402;Intereses a Devengar FEB.(1ºAño);1;1
+11413403;Intereses a Devengar MAR.(1ºAño);1;1
+11413404;Intereses a Devengar ABR.(1ºAño);1;1
+11413405;Intereses a Devengar MAY.(1ºAño);1;1
+11413406;Intereses a Devengar JUN.(1ºAño);1;1
+11413407;Intereses a Devengar JUL.(1ºAño);1;1
+11413408;Intereses a Devengar AGO.(1ºAño);1;1
+11413409;Intereses a Devengar SET.(1ºAño);1;1
+11413410;Intereses a Devengar OCT.(1ºAño);1;1
+11413411;Intereses a Devengar NOV.(1ºAño);1;1
+11413412;Intereses a Devengar DIC.(1ºAño);1;1
+11413413;Intereses a Devengar ENE.(2ºAño);1;1
+11413414;Intereses a Devengar FEB.(2ºAño);1;1
+11413415;Intereses a Devengar MAR.(2ºAño);1;1
+11413416;Intereses a Devengar ABR.(2ºAño);1;1
+11413417;Intereses a Devengar MAY.(2ºAño);1;1
+11413418;Intereses a Devengar JUN.(2ºAño);1;1
+11413419;Intereses a Devengar JUL.(2ºAño);1;1
+11413420;Intereses a Devengar AGO.(2ºAño);1;1
+11413421;Intereses a Devengar SET.(2ºAño);1;1
+11413422;Intereses a Devengar OCT.(2ºAño);1;1
+11413423;Intereses a Devengar NOV.(2ºAño);1;1
+11413424;Intereses a Devengar DIC.(2ºAño);1;1
+11413425;Intereses a Devengar ENE.(3ºAño);1;1
+11413426;Intereses a Devengar FEB.(3ºAño);1;1
+11413427;Intereses a Devengar MAR.(3ºAño);1;1
+11413428;Intereses a Devengar ABR.(3ºAño);1;1
+11413429;Intereses a Devengar MAY.(3ºAño);1;1
+11413430;Intereses a Devengar JUN.(3ºAño);1;1
+11413431;Intereses a Devengar JUL.(3ºAño);1;1
+11413432;Intereses a Devengar AGO.(3ºAño);1;1
+11413433;Intereses a Devengar SET.(3ºAño);1;1
+11413434;Intereses a Devengar OCT.(3ºAño);1;1
+11413435;Intereses a Devengar NOV.(3ºAño);1;1
+11413436;Intereses a Devengar DIC.(3ºAño);1;1
+11413440;Intereses a Devengar a partir 4º Año;1;1
+11413450;Intereses Anticipados: Total;2;0
+11413499;TOTAL ANTICIPOS;3;0
+11500000;OTROS CREDITOS;93;0
+11513500;Reclamos Judiciales (Microsoft);1;1
+11513510;Imp.IVA Susp.a Recuperar (Act.);1;1
+11513550;Imp.Ganancias Susp.a Recup.(VN);1;1
+11513560;Imp.Ganancias Susp.a Recup.(Act.);1;1
+11513600;Imp.Capitales Susp.a Recup. (VN);1;1
+11513610;Imp.Capitales Susp.a Recup.(Act.);1;1
+11513650;Imp.Activos Susp.a Recup.(VN);1;1
+11513660;Imp.Activos Susp.a Recup.(Act.);1;1
+11513699;Impuestos a Recuperar: Total;2;0
+80070210;Imp.Ley 25413 (0.6 %);1;1
+11513740;IVA Cr.Fiscal (Saldo DDJJ Año Ant.2º Par.)-;1;1
+11513745;IVA Cr.Fiscal (Saldo DDJJ Año Ant.1º Par.)-;1;1
+11513750;IVA Cr.Fiscal (R.G.3431-Aduana);1;1
+11513751;IVA Cr.Fiscal (R.G.3125 Retención 3ros.);1;1
+11513752;IVA Cr.Fiscal (R.G.3337 - Percepciones);1;1
+11513753;IVA Cr.Fiscal (R.G.3631) F-517 Proveedores;1;1
+11513754;IVA Cr.Fiscal (R.G.3631) F-517 Clientes;1;1
+11513755;IVA Cr.Fiscal (R.G.3125) A Computar Nvo.Ejerc.;1;1
+11513756;IVA Cr.Fiscal (R.G.3337) A Computar Nvo.Ejerc.;1;1
+11513757;IVA Cr.Fiscal (R.G.3631) A Computar Nvo.Ejerc.;1;1
+11513758;IVA Cr.Fiscal (21%) F-517 A Comp.Nvo.Ejerc.;1;1
+11513760;IVA Compensación (Import.-Impuestos);1;1
+21323191;Retenc.al Personal: Embargo Judicial;1;1
+11513799;IVA Retenciones (Art.20-2ºP.):Total;2;0
+11514000;Imp.a las Ganancias (Ant. 1);1;1
+11514010;Imp.a las Ganancias (Ant. 2);1;1
+11514020;Imp.a las Ganancias (Ant. 3);1;1
+11514021;Imp.a las Ganancias (Ant. 4);1;1
+11514022;Imp.a las Ganancias (Ant. 5);1;1
+11514023;Imp.a las Ganancias (Ant. 6);1;1
+11514024;Imp.a las Ganancias (Ant. 7);1;1
+11514025;Imp.a las Ganancias (Ant. 8);1;1
+11514026;Imp.a las Ganancias (Ant. 9);1;1
+11514027;Imp.a las Ganancias (Ant.10);1;1
+11514028;Imp.a las Ganancias (Ant.11);1;1
+11514050;Imp.a las Ganancias Ret.por 3ros.;1;1
+11514060;Imp.a las Ganancias Acumulado;1;1
+11514070;Imp.a las Ganancias D.D.J.J.;1;1
+11514080;Imp.a las Ganancias (Ley 23697);1;1
+11514091;Imp.a las Ganancias Actualiz.;1;1
+11514092;Imp.a las Ganancias Actualiz.(Sdo.a Favor);1;1
+11514093;Imp.a las Ganancias Saldo a Favor;1;1
+11514100;Imp.Gan.Minima Presunta -  Ant. 1;1;1
+11514110;Imp.Gan.Minima Presunta -  Ant. 2;1;1
+11514120;Imp.Gan.Minima Presunta -  Ant. 3;1;1
+11514130;Imp.Gan.Minima Presunta -  Ant. 4;1;1
+11514140;Imp.Gan.Minima Presunta -  Ant. 5;1;1
+11514199;Impuesto a las Ganancias: Total;2;0
+11514200;Imp.a los Activos - Ant. 1;1;1
+11514210;Imp.a los Activos - Ant. 2;1;1
+11514220;Imp.a los Activos - Ant. 3;1;1
+11514230;Imp.a los Activos - Ant. 4;1;1
+11514231;Imp.a los Activos - Ant. 5;1;1
+11514232;Imp.a los Activos - Ant. 6;1;1
+11514233;Imp.a los Activos - Ant. 7;1;1
+11514234;Imp.a los Activos - Ant. 8;1;1
+11514235;Imp.a los Activos - Ant. 9;1;1
+11514236;Imp.a los Activos - Ant.10;1;1
+11514237;Imp.a los Activos - Ant.11;1;1
+11514240;Imp.a los Activos Acumulado;1;1
+11514250;Imp.a los Activos D.D.J.J.;1;1
+11514260;Imp.a los Activos Ant.Adicional;1;1
+11514261;Imp.a los Activos Actualiz.;1;1
+11514262;Imp.a los Activos Saldo a Favor;1;1
+11514299;Impuesto a los Activos: Total;2;0
+11514300;Imp.a los Sellos: Facturado;1;1
+11514310;Imp.a los Sellos: Utilizado;1;1
+11514399;Impuesto a los Sellos: Total;2;0
+11514400;Imp.Esp.de Emergencia (Ley 23764);1;1
+11514499;Impuesto de Emergencia: Total;2;0
+11514500;Garantía a Proveed.: Equitel;1;1
+11514510;Garantía a Proveed.: Alquileres;1;1
+11514511;Garantía a Proveed.: Y.P.F.;1;1
+11514512;Garantía a Proveed.: Otros;1;1
+11514520;Garantía a ;1;1
+21122180;Proveedores: Moratoria Bonos-IVA Compras;1;1
+21424399;I.V.A. Marzo: Total;2;0
+21424401;I.V.A. Débito Facturación           ABR.;1;1
+21424402;I.V.A. Crédito Compras              ABR.;1;1
+21424403;I.V.A. Crédito Liberado               ABR.;1;1
+21424404;I.V.A. Pagado                            ABR.;1;1
+21424405;I.V.A. DDJJ Saldo 1º Párrafo       ABR.;1;1
+21424406;I.V.A. Débito Respons.No Insc.   ABR.;1;1
+21424407;I.V.A. S/Op.Bcos.y Financ.  ABR. RG 549;1;1
+21424408;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424499;I.V.A. Abril: Total;2;0
+21424501;I.V.A. Débito Facturación            MAY.;1;1
+21424502;I.V.A. Crédito Compras               MAY.;1;1
+21424503;I.V.A. Crédito Liberado                MAY.;1;1
+21424504;I.V.A. Pagado                            MAY.;1;1
+21424505;I.V.A. DDJJ Saldo 1º Párrafo       MAY.;1;1
+21424506;I.V.A. Débito Respons.No Insc.   MAY.;1;1
+21424507;I.V.A. S/Op.Bcos.y Financ.  MAY. RG 549;1;1
+21424508;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424599;I.V.A. Mayo: Total                   ;2;0
+21424601;I.V.A. Débito Facturación            JUN.         ;1;1
+21424602;I.V.A. Créditos Compras             JUN.;1;1
+21424603;I.V.A. Crédito Liberado                JUN.;1;1
+21424604;I.V.A. Pagado                            JUN.;1;1
+21424605;I.V.A. DDJJ Saldo 1º Párrafo       JUN.;1;1
+21424606;I.V.A. Débito Respons.No Insc.   JUN.;1;1
+21424607;I.V.A. S/Op.Bcos.y Financ.  JUN. RG 549;1;1
+21424608;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424609;I.V.A. a Computar Nvo.Ejercicio JUN.;1;1
+21424699;I.V.A. Junio: Total;2;0
+21424701;I.V.A. Débito Facturación            JUL.         ;1;1
+21424702;I.V.A. Créditos Compras             JUL.;1;1
+21424703;I.V.A. Crédito Liberado               JUL.;1;1
+21424704;I.V.A. Pagado                            JUL.;1;1
+21424705;I.V.A. DDJJ Saldo 1º Párrafo       JUL.;1;1
+21424706;I.V.A. Débito Respons.No Insc.   JUL.;1;1
+21424707;I.V.A. S/Op.Bcos.y Financ.  JUL. RG 549;1;1
+21424708;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424799;I.V.A. Julio: Total;2;0
+21424801;I.V.A. Débito Facturación            AGO.;1;1
+21424802;I.V.A. Créditos Compras             AGO.;1;1
+21424803;I.V.A. Crédito Liberado                AGO.;1;1
+21424804;I.V.A. Pagado                            AGO.;1;1
+21424805;I.V.A. DDJJ Saldo 1º Párrafo       AGO.;1;1
+21424806;I.V.A. Débito Respons.No Insc.   AGO.;1;1
+21424807;I.V.A. S/Op.Bcos.y Financ.  AGO. RG 549;1;1
+21424808;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424900;I.V.A. Crédito ANSES  SET;1;1
+21424901;I.V.A. Débito Facturación           SET.;1;1
+21424902;I.V.A. Crédito Compras              SET.;1;1
+21424903;I.V.A. Crédito Liberado               SET. ;1;1
+21424904;I.V.A. Pagado                            SET.;1;1
+21424905;I.V.A. DDJJ Saldo 1º Párrafo       SET.;1;1
+21424906;I.V.A. Débito Respons.No Insc.   SET.;1;1
+21424907;I.V.A. S/Op.Bcos.y Financ.  SET. RG 549;1;1
+21424908;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21424999;I.V.A. Setiembre: Total;2;0
+21425101;I.V.A. Débito Facturación           OCT.;1;1
+21425102;I.V.A. Crédito Compras              OCT.;1;1
+21425103;I.V.A. Crédito Liberado               OCT.;1;1
+21425104;I.V.A. Pagado                            OCT.;1;1
+21425105;I.V.A. DDJJ Saldo 1º Párrafo       OCT.;1;1
+21425106;I.V.A. Débito Respons.No Insc.   OCT.;1;1
+21425107;I.V.A. S/Op.Bcos.y Financ.  OCT. RG 549;1;1
+21425108;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21425999;I.V.A. Octubre: Total;2;0
+21426111;I.V.A. Débito Facturación            NOV.;1;1
+21426112;I.V.A. Crédito Compras               NOV.;1;1
+21426113;I.V.A. Crédito Liberado                NOV.;1;1
+21426114;I.V.A. Pagado                            NOV.;1;1
+21426115;I.V.A. DDJJ Saldo 1º Párrafo       NOV.;1;1
+21426116;I.V.A. Débito Respons.No Insc.   NOV.;1;1
+21426117;I.V.A. S/Op.Bcos.y Financ.  NOV. RG 549;1;1
+21426118;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21426999;I.V.A. Noviembre: Total;2;0
+21427121;I.V.A. Débito Facturación            DIC.;1;1
+21427122;I.V.A. Crédito Compras               DIC.;1;1
+21427123;I.V.A. Crédito Liberado                DIC.;1;1
+21427124;I.V.A. Pagado                            DIC.;1;1
+21427125;I.V.A. DDJJ Saldo 1º Párrafo       DIC.;1;1
+21427126;I.V.A. Débito Respons.No Insc.   DIC.;1;1
+21427127;I.V.A. S/Op.Bcos.y Financ.  DIC. RG 549;1;1
+21427128;I.V.A. DDJJ Saldo a Pagar (Vto. __/__);1;1
+21427999;I.V.A. Diciembre: Total;2;0
+21428070;Pres.Espontanea Dec.1299;1;1
+21428299;Presentación Espontánea: Total;2;0
+21428500;Imp.Ingresos Brutos: Capital Federal;1;1
+21428501;Imp.Ingresos Brutos: Capital (Retenc.);1;1
+21428505;Imp.I.Btos.Cap.Ant.Adic.Emerg.;1;1
+21428510;Imp.Ingresos Brutos: Buenos Aires;1;1
+21428511;Imp.Ingresos Brutos: Bs.As. (Retenc.);1;1
+21428520;Imp.Ingresos Brutos: San Luis;1;1
+21428521;Imp.Ingresos Brutos: S.Luis (Retenc.);1;1
+21428530;Imp.Ingresos Brutos: Tucuman;1;1
+21428531;Imp.Ingresos Brutos: Tucuman (Retenc.);1;1
+21428540;Imp.Ingresos Brutos: Santa Fe;1;1
+21428541;Imp.Ingresos Brutos: Santa Fe (Retenc.);1;1
+21428550;Imp.Ingresos Brutos: La Rioja;1;1
+21428551;Imp.Ingresos Brutos: La Rioja (Retenc.);1;1
+21428560;Imp.Ingresos Brutos: Entre Rios;1;1
+21428561;Imp.Ingresos Brutos: E.Rios   (Retenc.);1;1
+21428570;Imp.Ingresos Brutos: Tierra del Fuego;1;1
+21428571;Imp.Ingresos Brutos: T.del Fgo.(Retenc.);1;1
+21428580;Imp.Ingresos Brutos: Santa Cruz;1;1
+21428581;Imp.Ingresos Brutos: Sta.Cruz (Retenc.);1;1
+21428590;Imp.Ingresos Brutos: Córdoba;1;1
+21428591;Imp.Ingresos Brutos: Córdoba  (Retenc.);1;1
+21428592;Imp.Ingresos Brutos: Neuquén;1;1
+21428593;Imp.Ingresos Brutos: Neuquén  (Retenc.);1;1
+21428594;Imp.Ingresos Brutos: Jujuy;1;1
+21428595;Imp.Ingresos Brutos: Jujuy  (Retenc.);1;1
+21428596;Imp.Ingresos Brutos: San Juan;1;1
+21428597;Imp.Ingresos Brutos: S.Juan (Retenc.);1;1
+21428599;Ingresos Brutos: Total;2;0
+21428600;Impuestos Varios;1;1
+21428699;Impuestos Varios: Total;2;0
+21428999;TOTAL DEUDAS FISCALES;3;0
+21500000;OTRAS DEUDAS;93;0
+21528500;Mercaderías de Terceros;1;1
+21528501;Mercaderías de 3ros. ;1;1
+21528502;Mercaderías de 3ros. ;1;1
+21528503;Mercaderías de 3ros. ;1;1
+21528540;Mercaderías de Terceros: Total;2;0
+21528550;Maquinarias de Terceros;1;1
+21528560;Maq.Admisión Tempor.: Corino;1;1
+21528561;Maq.Admisión Tempor.: Mainox;1;1
+21528562;Maq.Admisión Tempor.: ;1;1
+21528599;Maq.de 3ros.: Total;2;0
+21528700;Acreedores Varios;1;1
+21528701;Acreedores Varios: Comerciales;1;1
+21528702;Acreedores Varios: Otros;1;1
+21528780;Acreedores Varios: Canje;1;1
+21528799;Acreedores Varios: Total;2;0
+21528900;Adelantos de Clientes;1;1
+21528901;Adelantos de Clientes (SEIPAC S.A.);1;1
+21528902;Adelantos de Clientes (SANTA ROSA S.A.);1;1
+21528910;Adelantos de Clientes ;1;1
+21528911;Adelantos de Clientes (Saldos Acreed.);1;1
+21528999;Adelantos de Clientes: Total;2;0
+21529000;Honorarios a Pagar;1;1
+21529001;Honorarios a Directores: (J.L.B.);1;1
+21529002;Honorarios a Directores: (A.C.M.);1;1
+21529003;Honorarios a Directores: (N.B.de B.);1;1
+21529004;Honorarios a Directores: (E.P.B.);1;1
+21529005;Honorarios a Directores: (S.G.M.);1;1
+21529006;Honorarios a Directores: (P.B.de B.);1;1
+21529007;Honorarios a Directores: (I.G.de M.);1;1
+21529008;Honorarios a Directores: (G.P.B.);1;1
+21529009;Honorarios a Directores: M.S.B.;1;1
+21529010;Honorarios a Directores: (E.B.);1;1
+21529199;Honorarios a Pagar: Total;2;0
+21529200;Depositos en Garantia: ____________________;1;1
+21529210;Depositos en Garantia: ____________________;1;1
+21529220;Depositos en Garantia: ____________________;1;1
+21529230;Depositos en Garantia: ____________________;1;1
+21529240;Depositos en Garantia: ____________________;1;1
+21529250;Depositos en Garantia: ____________________;1;1
+21529260;Depositos en Garantia: ____________________;1;1
+21529299;Depositos en Garantia: Total;2;0
+21529300;Dividendos a Pagar: Acciones;1;1
+21529310;Dividendos a Pagar: Efectivo;1;1
+21529399;Dividendos a Pagar: Total;2;0
+21529400;Divid.Puestos a Disposic.: (J.L.B.);1;1
+21529410;Divid.Puestos a Disposic.: (A.C.M.);1;1
+21529420;Divid.Puestos a Disposic.: (N.B.de B.);1;1
+21529430;Divid.Puestos a Disposic.: (E.P.B.);1;1
+21529440;Divid.Puestos a Disposic.: (S.G.M.);1;1
+21529450;Divid.Puestos a Disposic.: (P.B.de B.);1;1
+21529460;Divid.Puestos a Disposic.: (I.G.de M.) ;1;1
+21529461;Divid.Puestos a Disposic.: (G.P.B.);1;1
+21529462;Divid.Puestos a Disposic.: M.S.B;1;1
+21529499;Dividendos Puestos a Disposicion: Total;2;0
+21529500;Accionistas Cta.Part. (J.L.B.);1;1
+21529510;Accionistas Cta.Part. (A.C.M.);1;1
+21529520;Accionistas Cta.Part. (N.B.de B.);1;1
+21529530;Accionistas Cta.Part. (E.P.B.);1;1
+21529540;Accionistas Cta.Part. (S.G.M.);1;1
+21529550;Accionistas Cta.Part. (P.B.de B.);1;1
+21529560;Accionistas Cta.Part. (I.G.de M.);1;1
+21529561;Accionistas Cta.Part. (G.P.B.);1;1
+21529562;Accionistas Cta.Part. M.B.;1;1
+21529563;Accionistas Cta.Part. E.B.;1;1
+21529599;Accionistas Cta.Particular: Total;2;0
+21529600;Juicios Laborales a Pagar # 1;1;1
+21529610;Juicios Laborales a Pagar # 2;1;1
+21529620;Juicios Laborales a Pagar # 3;1;1
+21529630;Juicios Laborales a Pagar # 4;1;1
+21529640;Juicios Laborales a Pagar # 5;1;1
+21529641;Juicios Laborales a Pagar # 6;1;1
+21529642;Juicios Laborales a Pagar # 7;1;1
+21529643;Juicios Laborales a Pagar # 8;1;1
+21529644;Juicios Laborales a Pagar # 9;1;1
+21529645;Juicios Laborales a Pagar # 10;1;1
+21529646;Juicios Laborales a Pagar # 11;1;1
+21529647;Juicios Laborales a Pagar # 12;1;1
+21529650;Juicios Laborales Honorarios;1;1
+21529699;Juicios Laborales a Pagar: Total;2;0
+21529700;Prov.Imp.Ganancias;1;1
+21529710;Prov.Imp.Activos;1;1
+21529740;Prov.Juicios Laborales;1;1
+21529750;Prov.Juicios Imp.(IVA-Korner/Salgado)V.O.;1;1
+21529760;Prov.Alquiler Oficinas;1;1
+21529761;Prov.Alquiler Depósito;1;1
+21529762;Prov.Varias;1;1
+21529763;Prov.Intereses Bancos;1;1
+21529789;Provisiones: Total;2;0
+21529790;Previsión Juicios Laborales;1;1
+21529791;Previsiones Varias;1;1
+21529799;Previsiones: Total;2;0
+21529800;Recup.Susp.Imp.IVA - Ley 23697 (V.N.);1;1
+21529810;Recup.Susp.Imp.IVA - Ley 23697 (Act.);1;1
+21529820;Recup.Susp.Imp.Gan. - Ley 23697 (V.N.);1;1
+21529830;Recup.Susp.Imp.Gan. - Ley 23697 (Act.);1;1
+21529840;Recup.Susp.Imp.Cap. - Ley 23697 (V.N.);1;1
+21529850;Recup.Susp.Imp.Cap. - Ley 23697 (Act.);1;1
+21529860;Recup.Susp.Imp.Activos - Ley 23697 (VN);1;1
+21529870;Recup.Susp.Imp.Activos - Ley 23697 (Act.);1;1
+21529899;Recup.Susp.Impuestos: Total;2;0
+21529900;Imp.a las Ganancias Dec.#2054/92 (1992);1;1
+21529901;Imp.a las Ganancias Dec.#2054/92 (1993);1;1
+21529902;Imp.a las Ganancias Dec.#2054/92 (1994);1;1
+21529903;Imp.a las Ganancias Dec.#2054/92 (1995);1;1
+21529904;Imp.a las Ganancias Dec.#2054/92 (1996);1;1
+21529905;Imp.a las Ganancias Dec.#2054/92 (1997);1;1
+21529906;Imp.a las Ganancias Dec.#2054/92 (1998);1;1
+21529907;Imp.a las Ganancias Dec.#2054/92 (1999);1;1
+21529908;Imp.a las Ganancias Dec.#2054/92 (2000);1;1
+21529909;Imp.a las Ganancias Dec.#2054/92 (2001);1;1
+21529910;Imp.a las Ganancias Dec.#2054/92 (2002);1;1
+21529920;Imp. I.V.A. Decr.# 2054/92 (1992);1;1
+21529921;Imp. I.V.A. Decr.# 2054/92 (1993);1;1
+21529922;Imp. I.V.A. Decr.# 2054/92 (1994);1;1
+21529923;Imp. I.V.A. Decr.# 2054/92 (1995);1;1
+21529924;Imp. I.V.A. Decr.# 2054/92 (1996);1;1
+21529925;Imp. I.V.A. Decr.# 2054/92 (1997);1;1
+21529926;Imp. I.V.A. Decr.# 2054/92 (1998);1;1
+21529927;Imp. I.V.A. Decr.# 2054/92 (1999);1;1
+21529928;Imp. I.V.A. Decr.# 2054/92 (2000);1;1
+21529929;Imp. I.V.A. Decr.# 2054/92 (2001);1;1
+21529930;Imp. I.V.A. Decr.# 2054/92 (2002);1;1
+21529940;Imp.a los Activos Dec.# 2054/92 (1992);1;1
+21529941;Imp.a los Activos Dec.# 2054/92 (1993);1;1
+21529942;Imp.a los Activos Dec.# 2054/92 (1994);1;1
+21529943;Imp.a los Activos Dec.# 2054/92 (1995);1;1
+21529944;Imp.a los Activos Dec.# 2054/92 (1996);1;1
+21529945;Imp.a los Activos Dec.# 2054/92 (1997);1;1
+21529946;Imp.a los Activos Dec.# 2054/92 (1998);1;1
+21529947;Imp.a los Activos Dec.# 2054/92 (1999);1;1
+21529948;Imp.a los Activos Dec.# 2054/92 (2000);1;1
+21529949;Imp.a los Activos Dec.# 2054/92 (2001);1;1
+21529950;Imp.a los Activos Dec.# 2054/92 (2002);1;1
+21529960;Imp. I.V.A. Decr.# 2054/92 Saldos (1992);1;1
+21529961;Imp. I.V.A. Decr.# 2054/92 Saldos (1993);1;1
+21529962;Imp. I.V.A. Decr.# 2054/92 Saldos (1994);1;1
+21529963;Imp. I.V.A. Decr.# 2054/92 Saldos (1995);1;1
+21529964;Imp. I.V.A. Decr.# 2054/92 Saldos (1996);1;1
+21529965;Imp. I.V.A. Decr.# 2054/92 Saldos (1997);1;1
+21529966;Imp. I.V.A. Decr.# 2054/92 Saldos (1998);1;1
+21529967;Imp. I.V.A. Decr.# 2054/92 Saldos (1999);1;1
+21529968;Imp. I.V.A. Decr.# 2054/92 Saldos (2000);1;1
+21529969;Imp. I.V.A. Decr.# 2054/92 Saldos (2001);1;1
+21529970;Imp. I.V.A. Decr.# 2054/92 Saldos (2002);1;1
+21529980;Imp. I.V.A. Saldo a Utilizar;1;1
+21529981;Imp. I.V.A. Compras a Utilizar;1;1
+21529982;Imp. Ganancias a Utilizar;1;1
+21529983;Imp. Activos a Utilizar;1;1
+21529990;Impuestos Decreto # 2054/92: Total;2;0
+21529999;TOTAL OTRAS DEUDAS;3;0
+21699991;TOTAL PASIVO CORRIENTE;4;0
+22000000;PASIVO NO CORRIENTE;94;0
+22130000;DEUDAS COMERCIALES;93;0
+22130100;Proveedores Locales;1;1
+22130101;Proveedores Locales Terceros;1;1
+22130102;Proveedores Locales Sta.Rosa;1;1
+22130103;Proveedores Locales Loboquim;1;1
+22130104;Proveedores Locales Seipac;1;1
+22130105;Proveedores Locales La Paterna;1;1
+22130199;Proveedores Locales: Total;2;0
+22130200;Proveedores p/Import.;1;1
+22130201;Proveed.p/Import.(M.Ext.);1;1
+22130299;Proveed. p/Import.: Total;2;0
+22130999;TOTAL DEUDAS COMERCIALES;3;0
+22230300;DEUDAS BANCARIAS;93;0
+22230310;Banco Almafuerte;1;1
+22230320;Banco B.E.A.L.;1;1
+22230340;Banco Rio de la Plata;1;1
+22230351;Banco Mariva (Prest.Prendario);1;1
+22230352;Banco Mariva (Prest.Prendario);1;1
+22230355;Banco Roberts;1;1
+22230398;Deudas Bancarias: Total;2;0
+22230399;TOTAL DEUDAS BANCARIAS;3;0
+22300000;DEUDAS SOCIALES;93;0
+22400000;DEUDAS FISCALES;93;0
+22430413;Pres.Espontánea Dec.292/91:;1;1
+22430498;Deudas Fiscales: Total;2;0
+22430499;TOTAL DEUDAS FISCALES;3;0
+22500000;OTRAS DEUDAS;93;0
+22530300;Acreedores Varios;1;1
+22530301;Acreedores Varios: Comerciales;1;1
+22530302;Acreedores Varios: Otros;1;1
+22530399;Acreedores Varios: Total;2;0
+22530400;Aportes Revocables;1;1
+22530401;Aportes Revocables ;1;1
+22530402;Aportes Revocables ;1;1
+22530499;Aportes Revocables: Total;2;0
+22530500;Impuestos a Recuperar;1;1
+22530501;Imp.IVA Susp.a Recup.Ley 23697 (V.N.);1;1
+22530510;Imp.IVA Susp.a Recup.Ley 23697 (Act.);1;1
+22530520;Imp.Gan.Susp.a Recup.Ley 23697 (V.N.);1;1
+22530530;Imp.Gan.Susp.a Recup.Ley 23697 (Act.);1;1
+22530540;Imp.Cap.Susp.a Recup.Ley 23697 (V.N.);1;1
+22530550;Imp.Cap.Susp.a Recup.Ley 23697 (Act.);1;1
+22530560;Imp.Act.Susp.a Recup.Ley 23697 (V.N.);1;1
+22530570;Imp.Cap.Susp.a Recup.Ley 23697 (Act.);1;1
+22530571;Imp.IVA Saldo a Utilizar;1;1
+22530572;Imp.IVA Compras a Utilizar;1;1
+22530573;Imp.Ganancias a Utilizar;1;1
+22530574;Imp.Activos a Utilizar;1;1
+22530575;Imp.IVA Saldo a Recuperar;1;1
+22530576;Imp.IVA Compras a Recuperar;1;1
+22530577;Imp.Ganancias a Recuperar;1;1
+22530578;Imp.Capitales a Recuperar;1;1
+22530579;Imp.Activos a Recuperar;1;1
+22530580;Impuestos a Recuperar: Total;2;0
+22530599;TOTAL OTRAS DEUDAS;3;0
+22599991;TOTAL PASIVO NO CORRIENTE;4;0
+22599999;TOTAL PASIVO;5;0
+30000000;PATRIMONIALES;94;0
+30031000;Acciones en Circulación (1 Voto);1;1
+30031100;Acciones en Circulación (5 Voto);1;1
+30031200;Acciones a Emitir;1;1
+30031300;Acciones a Distribuir;1;1
+30031400;Aportes  Irrevocables;1;1
+30031500;Dividendo en Acciones;1;1
+30031550;Dividendos en Efectivo;1;1
+30031600;Aumento de Capital (En Trámite);1;1
+30031700;Honorarios al Directorio;1;1
+30031800;Aporte a Cta.de Futuras Suscripciones;1;1
+30031990;Acciones: Total;2;0
+30032000;Actualiz.Capitalizable;1;1
+30032100;Actualiz.No Capitalizable;1;1
+30032990;Actualizaciones: Total;2;0
+30033000;Ajuste al Capital;2;1
+30033100;Reserva Legal;2;1
+30033120;Reserva Facultativa;2;1
+30033130;Ajuste Reserva Prima de Emisión;2;1
+30033200;Resultados Acumulados;2;1
+30033300;Resultados del Ejercicio;2;1
+30033400;Resultados Extraordinarios;2;1
+30033500;Resultados No Asignados;2;1
+30034000;Transferencia de Saldos;2;1
+30034100;Reserva Facultativa;2;1
+30034999;TOTAL PATRIMONIO;3;0
+30035999;GRAN TOTAL PASIVO;6;0
+40090000;VENTAS;94;0
+40090100;Ventas Sust.Qcas.Basicas en Gral.;1;1
+40090110;Ventas Sust.Qcas.Basicas en Gral. (Export.);1;1
+40090200;Ventas  Colorantes;1;1
+40090300;Ventas Prod.Químicos Auxiliares;1;1
+40090310;Ventas Prod.Químicos Auxiliares (Exportación);1;1
+40090400;Ventas Intermediarios;1;1
+40090450;Ventas Plastificantes 3ros.;1;1
+40090500;Ventas Bienes de Uso;1;1
+40090600;Ventas Varias;1;1
+40090999;Ventas: Total;2;0
+45091000;COSTO DE VENTAS;94;0
+45091010;Costo de Ventas;1;1
+45091100;Costo Ventas Sust.Qcas.Basicas en Gral.;1;1
+45091200;Costo Ventas Materias Primas Colorantes;1;1
+45091300;Costo Ventas Prod.Químicos Auxiliares;1;1
+45091400;Costo Ventas Intermediarios;1;1
+45091450;Costo Ventas Plastificantes (3ros.);1;1
+45091500;Costo Ventas Bienes de Uso;1;1
+45091600;Costo Ventas Varias;1;1
+45091650;Costo Ventas General (Sin Discriminar);1;1
+45091999;Costo de Ventas: Total;2;0
+50040000;GASTOS DE FABRICACION;94;0
+50040010;Sueldos y Jornales;1;1
+50040020;Comisiones a Vendedores;1;1
+50040050;Cargas Sociales;1;1
+50040070;Inemnizaciones;1;1
+50040090;Gratificaciones;1;1
+50040100;Servicios al Personal (Almacen-Agua-Tickets);1;1
+50040110;Personal Contratado;1;1
+50040120;Capacitación al Personal en el País;1;1
+50040130;Entrenamiento Personal en el Exterior;1;1
+50040200;Juicios Laborales;1;1
+50040300;Materias Primas: Ptos.Quimicos;1;1
+50040310;Materias Primas: Colorantes;1;1
+50040320;Materias Primas: Intermediarios;1;1
+50040350;Ptos.Terminados: Colorantes;1;1
+50040360;Ptos.Terminados: Auxiliares;1;1
+50040400;Energia Electrica R.Escalada;1;1
+50040500;Envases;1;1
+50040600;Bolsas de Polyetileno;1;1
+50040610;Materiales de Consevación;1;1
+50040615;Mat.de Conservación Insalaciones;1;1
+50040620;Materiales de Seguridad;1;1
+50040630;Materiales Varios;1;1
+50040640;Materiales de Laboratorio (P.Q.-Col.);1;1
+50040641;Materiales de Ensayo;1;1
+50040650;Gastos Indirectos de Fabricación;1;1
+50040680;Programación Producción;1;1
+50040700;Combustibles: Fuel-Oil / Mezcla/Gas-Oil (Lobos);1;1
+50040701;Combustibles: Gas-Oil (Utilitarios y Camiones);1;1
+50041000;Lubricantes;1;1
+50041500;Depreciación Bienes de Uso;1;1
+50041510;Depreciación B.Uso: Automóviles;1;1
+50041520;Depreciación B.Uso: Camiones-Utilitarios;1;1
+50041600;Alquiler Inmuebles;1;1
+50041610;Alquiler Equipos;1;1
+50041700;Fletes - Acarreos;1;1
+50041800;Gastos de Automóviles;1;1
+50041810;Gastos de Camiones-Utilitarios(Serv.Mec.y Rep.);1;1
+50041900;Gastos de Viaje (Pais);1;1
+50041910;Gastos de Viaje (Extranjero);1;1
+50042000;Gastos de Representación;1;1
+50042050;Gastos de Dirección;1;1
+50042100;Diarios-Revistas-Suscripciones;1;1
+50042200;Imprenta - Libreria;1;1
+50042250;Artículos de Oficina;1;1
+50042300;Seguros Fabricación;1;1
+50042350;Telefonos - Telex;1;1
+50042400;Correos - Telegrafos;1;1
+50043000;Honorarios Técnicos;1;1
+50043100;Honorarios Profesionales;1;1
+50043200;Asesoramiento Técnico;1;1
+50043400;Gastos Legales;1;1
+50043500;Auditoría;1;1
+50043600;Donaciones;1;1
+50043700;Seguridad;1;1
+50044100;Imp.Radicación Vehículos: Automóviles (Patentes);1;1
+50044110;Imp.Radicación Vehículos: Camiones-Util.(Patentes);1;1
+50044200;Impuestos Varios;1;1
+50044300;Tasas por Servicios -A.B.L.-Escalada;1;1
+50044400;Tasas por Servicios -Agua-Escalada;1;1
+50044450;Tasas por Servicios -Camuzzi;1;1
+50044500;Tasas Municipales -Varias-;1;1
+50044600;Gastos de Avisos y Propaganda;1;1
+50044800;Gastos de Laboratorio;1;1
+50044810;Ensayos e Investigacion;1;1
+50044850;Servicios de Terceros;1;1
+50044900;Material p/Investig.Laboratorio;1;1
+50045000;Gastos de Apertura;1;1
+50049900;Gastos Varios Caja Escalada;1;1
+50050000;Gastos de Fabricación: Total;3;0
+50199999;UTILIDAD BRUTA;4;0
+60050000;GASTOS DE ADMINISTRACION;94;0
+60050010;Sueldos y Jornales;1;1
+60050050;Cargas Sociales;1;1
+60050070;Indemnizaciones;1;1
+60050090;Gratificaciones;1;1
+60050100;Servicios al Personal (Almacen-Agua-Tickets);1;1
+60050110;Personal Contratado;1;1
+60050200;Juicios Laborales;1;1
+60050400;Enérgia Eléctrica;1;1
+60050610;Material de Conservación;1;1
+60051500;Depreciacion Bienes de Uso;1;1
+60051510;Depreciacion B.Uso: Automóviles;1;1
+50051520;Depreciacion B.Uso: Camiones-Utilitarios;1;1
+60051600;Alquiler Inmuebles;1;1
+60051610;Alquiler Equipos;1;1
+60051800;Gastos de Automóviles (Serv.Mec. y Repuestos);1;1
+60051810;Gastos de Automóviles -  Nafta;1;1
+60051900;Gastos de Viaje (Exterior);1;1
+60051910;Gastos de Viaje (Pais) Viaticos;1;1
+60052000;Gastos de Representación;1;1
+60052050;Gastos de Dirección;1;1
+60052100;Diarios-Revistas-Suscripciones;1;1
+60052200;Imprenta - Libreria;1;1
+60052250;Artículos de Oficina;1;1
+60052300;Seguros;1;1
+60052350;Telefonos - Telex;1;1
+60052400;Correos - Telegrafos;1;1
+60053000;Honorarios Técnicos;1;1
+60053100;Honorarios Profesionales;1;1
+60053110;Honorarios Profesionales (Juicios);1;1
+60053400;Gastos Legales;1;1
+60053410;Gastos p/tramitac.escr.;1;1
+60053500;Auditoria;1;1
+60053600;Donaciones;1;1
+60053700;Impuesto a los Sellos;1;1
+60053710;Impuesto a la Com./Vta. de Divisas;1;1
+60053800;IVA No Computable;1;1
+60053900;Impuesto a los Capitales;1;1
+60054000;Impuesto a las Ganancias;1;1
+60054050;Impuesto Emerg.Esp. L-23764;1;1
+60054100;Imp.Radicación Vehículos: Automóviles- Patentes;1;1
+60054150;Impuesto Decreto 560/89;1;1
+60054200;Impuestos Varios Administrativos;1;1
+60054210;Impuestos Reclamados (DGI) Koner/Salgado;1;1
+60054300;Tasas por Servicios -A.B.L.-;1;1
+60054400;Tasas por Servicios -Agua-;1;1
+60054600;Gastos de Avisos y Propagandas;1;1
+60054850;Servicios de Terceros;1;1
+60055000;Cuotas Sociales;1;1
+60055100;Comisiones y Gastos Bancarios;1;1
+60055200;Impuesto al Debito /Credito Bancario;1;1
+60059990;Gastos Varios;1;1
+60059999;Gastos de Administracion: Total;2;0
+70060000;GASTOS DE COMERCIALIZACION Y VENTAS;94;0
+70060010;Sueldos y Jornales;1;1
+70060020;Comisión a Vendedores;1;1
+70060050;Cargas Sociales;1;1
+70060060;Cargas Sociales: Autónomos;1;1
+70060070;Indemnizaciones;1;1
+70060090;Gratificaciones;1;1
+70060100;Servicios al Personal (Almacen-Agua-Tickets);1;1
+70060110;Personal Contratado;1;1
+70060120;Capacitación al Personal en el País;1;1
+70060130;Entrenamiento Personal en el Exterior;1;1
+70060200;Juicios Laborales;1;1
+70060400;Enérgia Eléctrica;1;1
+70060610;Material de Conservación;1;1
+70060615;Mat.de Conservación Insalaciones;1;1
+70061500;Depreciación Bienes de Uso;1;1
+70061510;Depreciación B.Uso: Automóviles;1;1
+70061520;Depreciación B.Uso: Camiones-Utilitarios;1;1
+70061600;Alquiler Inmuebles;1;1
+70061610;Alquiler Equipos;1;1
+70061700;Fletes - Acarreos;1;1
+70061800;Gastos de Automóviles(Serv.Mec. y Repuestos);1;1
+70061810;Gastos de Automoviles-Nafta y GNC;1;1
+70061900;Gastos Viaje (Extranjero);1;1
+70061910;Gastos Viaje (Pais);1;1
+70061920;Representacion Exposiciones Internac.;1;1
+70061930;Comferencias y Agasajos a Clientes;1;1
+70062000;Gastos de Representación;1;1
+70062050;Gastos de Dirección;1;1
+70062100;Diarios-Revistas-Suscripciones;1;1
+70062150;Trainee en el Exterior;1;1
+70062160;Trainee en el Pais;1;1
+70062200;Imprenta - Libreria;1;1
+70062250;Artículos de Oficina;1;1
+70062300;Seguros Comerciales;1;1
+70062350;Telefonos - Telex;1;1
+70062400;Correos - Telegrafos;1;1
+70063200;Asesoramiento Técnico;1;1
+70063210;Distribución y Expedición;1;1
+70063300;Asesoramiento Técnico p/Clientes;1;1
+70063400;Gastos Legales;1;1
+70063800;Impuesto Ingresos Brutos;1;1
+70064100;Imp.Radicación Vehículos: Automóviles Patentes;1;1
+70064110;Imp.Radicación Vehículos: Camiones-Util.;1;1
+70064200;Impuesto Varios-Ventas;1;1
+70064550;Deudores Incobrables;1;1
+70064560;Previsión p/Incobrabilidad;1;1
+70064600;Gastos Avisos y Propaganda;1;1
+70064700;Atención a Clientes-Ventas;1;1
+70064800;Gastos de Laboratorio;1;1
+70064850;Servicios de Terceros;1;1
+70064900;Mat.p/Investig.Laboratorio;1;1
+70064910;Gastos por Exportaciones;1;1
+70069990;Gastos Varios;1;1
+70069999;Gastos de Comercialización: Total;2;0
+80070000;GASTOS DE FINANCIACION;94;0
+80070100;Comisiones y Gastos Bancarios;1;1
+80070200;Impuesto al Débito Bancario;1;1
+80077200;Intereses Pagados a Prov.(Locales);1;1
+80077210;Intereses Pagados a Prov.(Del Exterior);1;1
+80077220;Imp.Gan/Int.Prov.Exterior;1;1
+80077300;Intereses Bancarios;1;1
+80077310;Multas y Recargos por Pag.F/Termino;1;1
+80077320;Impuesto Varios Financieros;1;1
+80079990;Gastos Varios;1;1
+80079999;Gastos de Financiación: Total;2;0
+80099999;GASTOS: TOTAL;4;0
+80199999;UTILIDAD/PERDIDA OPERATIVA;5;0
+82080000;INGRESOS;94;0
+82081000;Actualización B.de Uso Inmuebles;1;1
+82081100;Actualización B.de Uso Instalaciones;1;1
+82081110;Actualización B.de Uso Muebles y Utiles;1;1
+82081120;Actualización B.de Uso Rodados;1;1
+82081130;Actualización B.de Uso Maquinas y Equipos;1;1
+82081140;Actualización B.de Uso Terrenos;1;1
+82081150;Actualización I.V.A. Bienes de Uso;1;1
+82081160;Actualización I.V.A. Crédito Fiscal;1;1
+82081170;Actualización Anticipo Imp.Ganancias;1;1
+82081180;Actualización Anticipo Imp.Capitales;1;1
+82081190;Actualización Anticipo Imp.Activos;1;1
+82081200;Actualización Bono Solidario;1;1
+82081210;Actualización Varias;1;1
+82081220;Actualización Bonex;1;1
+82081230;Actualización Impuestos;1;1
+82081500;Diferencia de Cambio (CR);1;1
+82081600;Intereses Cobrados a Clientes;1;1
+82081610;Intereses Ganados p/Inv.Plazo Fijo;1;1
+82081620;Intereses Ahorro Obligatorio;1;1
+82081630;Intereses Varios;1;1
+82081700;Seguros Cobrados;1;1
+82081710;Descuentos Obtenidos;1;1
+82081720;Dividendos Cobrados;1;1
+82081725;Alquileres Cobrados;1;1
+82081730;Comisiones Cobradas;1;1
+82081740;Resultado p/Vta.de Bienes de Uso;1;1
+82081800;I.V.A. Liberado (Credito Fiscal);1;1
+82081810;I.V.A. Liberado (Credito Fiscal B.de Uso);1;1
+82081820;I.V.A. Liberado (Suspendido Ley 23697);1;1
+82081830;I.V.A. Liberado (DF - CF);1;1
+82081840;Impuesto Ganancias (Exento);1;1
+82081850;Impuesto Capitales (Exento);1;1
+82081860;Impuesto Activos (Exento);1;1
+82081870;Ingresos Extraordinarios;1;1
+82081880;Recupero de Provisiones;1;1
+82081900;Ingresos Varios;1;1
+82081910;Ajustes Menores;1;1
+82081911;Bonos Impuestos a recuperar;1;1
+82081912;Bonos C.F.T. a cobrar;1;1
+82081913;Bonos Utilizados;1;1
+82081920;Promoción IVA Compras (F-517);1;1
+82081921;Promoción IVA Saldo;1;1
+82081922;Promoción Ganancias Saldo;1;1
+82081923;Promoción Ganancias Anticipos;1;1
+82081924;Promoción Activos Saldo;1;1
+82081925;Promoción Activos Anticipos;1;1
+82081930;Ingresos Brutos - Exentos;1;1
+82081931;Reintegro p/Exportaciones;1;1
+82081932;Recupero Cliente-Incob.Convocatoria;1;1
+82081933;Recupero Bonos Contr.Solid.-Cupones-;1;1
+82081999;Ingresos: Total;2;0
+85085000;EGRESOS;94;0
+85085100;Indexación Impuestos I.V.A.;1;1
+85085110;Indexación Impuestos Activos;1;1
+85085120;Impuestos Ganancias;1;1
+85085130;Indexación Impuestos Capitales;1;1
+85085140;Indexación Impuestos Ingresos Brutos;1;1
+85085150;Indexación Varias;1;1
+85085300;Diferencia de Cambio (DB);1;1
+85085310;Intereses Pagados a Prov.(Locales);1;1
+85085320;Intereses Pagados a Prov.(Extranj);1;1
+85085330;Intereses Bancarios;1;1
+85085340;Intereses Impuestos Varios;1;1
+85085400;Presentación Espontánea (V.O.);1;1
+85085410;Presentación Espontánea (Act.e Int.);1;1
+85085500;Descuentos Otorgados;1;1
+85085600;Pérdidas P/Mercaderia Deteriorada;1;1
+85085610;Pérdida Ahorro Obligatorio (Cap.e Int.);1;1
+85085700;Actualización Impuestos Varios;1;1
+85085720;Egresos Varios;1;1
+85085730;Ajustes Menores;1;1
+85085740;Ajuste Centavos (DB-CR);1;1
+85085741;Inter.Obras Sociales p/Pago Fuera Term.;1;1
+85092000;Egresos: Total;2;0
+85199999;UTILIDAD/PERDIDA NETA;6;0
+90092000;CUENTAS DE REI;94;0
+90092100;REI - Gastos Fabricación ;1;1
+90092110;REI - Gastos Administración ;1;1
+90092120;REI - Gastos Comercialización;1;1
+90092130;REI - Gastos Financiación ;1;1
+90092140;REI - Gastos Fiscales ;1;1
+90092150;REI - Costo Mercaderia Vendidas ;1;1
+90092160;REI - Ventas;1;1
+90092170;REI - Actualizaciones Varias;1;1
+90092200;REI - Comp.Bienes de Cambio E.F.;1;1
+90092210;REI - Comp.Bienes de Cambio ;1;1
+90092300;REI - Bienes de Uso ;1;1
+90092310;REI - Crédito Fiscal Bienes de Uso;1;1
+90092400;REI - Ajustes al Capital;1;1
+90092410;REI - Reserva Legal;1;1
+90092420;REI - Resultados Acumulados;1;1
+90092430;REI - Resultados p/Tenencia (Act.no Fin);1;1
+90092440;REI - Cuentas de Patrimonio Neto;1;1
+90092450;REI - Gtos.e Ing.Financieros;1;1
+90092460;REI - Prima Emisión de Acciones;1;1
+90092999;Cuentas de REI:  Total;2;0
+21122240;Obligaciones a Pagar-En Dolares-;1;1
+11615407;Importaciones en Trámite;1;1
+11615425;Importaciones en Trámite;1;1
+11615427;Importaciones en Trámite;1;1
+11615428;Importaciones en Trámite;1;1
+11615429;Importaciones en Trámite;1;1
+80077305;Inter/Costo Endeu.Empres-Ley 25063-;1;1
+11615424;Importaciones en Trámite;1;1
+11615430;Importaciones en Trámite;1;1
+11615431;Importaciones en Trámite;1;1
+11615432;Importaciones en Trámite;1;1
+11615433;Importaciones en Trámite;1;1
+11615434;Importaciones en trámite;1;1
+11615435;Importaciones en Trámite;1;1
+11615436;Importaciones en Trámite;1;1
+11615437;Importaciones en Trámite;1;1
+11615438;Importaciones en Trámite;1;1
+11615439;Importaciones en Trámite;1;1
+11615440;Importaciones en Trámite;1;1
+11615441;Importaciones en Trámite;1;1
+11615442;Importaciones en Trámite;1;1
+11615443;Importaciones en Trámite;1;1
+11615444;Importaciones en Trámite;1;1
+11615445;Importaciones en Trámite;1;1
+11615446;Importaciones en Trámite;1;1
+11615447;Importaciones en Trámite;1;1
+11615410;Importaciones en Trámite;1;1
+11615412;Importaciones en Trámite;1;1
+11615413;Importaciones en Trámite;1;1
+11615414;Importaciones en Trámite;1;1
+11615416;Importaciones en Trámite;1;1
+11615417;Importaciones en Trámite;1;1
+11615703;Máquinas Recibidas de 3ros.;1;1
+11615402;Importaciones en Trámite;1;1
+11615420;Importaciones en Trámite;1;1
+11615421;Importaciones en Trámite;1;1
+11615419;Importaciones en Tramite;1;1
+11615422;Importacion en Tramite;1;1
+11615423;Importaciones en Trámite;1;1
+80077325;Imp.Gananc.- Gross - Ine - Up (Gtos.);1;1
+12118700;Sistemas - Desarrollo Software;1;1
+60051620;Alquiler Equipos: Leasing;1;1
+21223070;Banco B.E.A.L-Prestamo # 1;1;1
+80077301;Intereses Bancarios del Exterior;1;1
+11412600;Intereses a Devengar;2;0
+12419551;Refinanciación Deuda Tiap S.A. (Doc.);1;1
+12118710;Instalaciones Red Sistemas V.O.;2;1
+12118002;Edificios: De 3ros. Depreciación;1;1
+11514150;Imp.Gan.Minima Presunta -  Ant. 6;1;1
+11514170;Imp.Gan.Minima Presunta -  Ant. 8;1;1
+11514190;Imp.Gan.Minima Presunta - Ant.10;1;1
+11514055;Imp. Gan. Minima Presunta;1;1
+11311740;Deudores por Ventas en Convocatoria;1;1
+11311706;Deudores en Gestión Cobro (Doc.);1;1
+12118060;Edificios: Depreciación Inmuebles de 3ros.;1;1
+11514094;Impuesto al DB Bancario (CH);1;1
+11311535;Seipac mutuo Santa Rosa;1;1
+11615140;Merc.de Reventa: Cartuchos (Comp.);1;1
+11615142;Merc.de Reventa: Toner  (Comp.);1;1
+11615230;Merc de Reventa: Cartuchos (STK);1;1
+11615232;Merc.de Reventa: Toner (STK);1;1
+21122155;Prov.Loc. p/Imp.(S.de C.) Cartuchos y otros;1;1
+21122205;Prov. p/Import.  Cartuchos y Otros;1;1
+45091150;Costo Venta Insumos de Computación;1;1
+75070010;Sueldos y Jornales;1;1
+75070030;Comisiones a Vendedores;1;1
+75070045;Indemnizaciones;1;1
+75070050;Personal Contratado;1;1
+75070070;Gastos de Correos y Encomiendas;1;1
+75070080;Alquiler Inmuebles;1;1
+75070100;Seguros;1;1
+75070110;Distribución y Entrega Mercad.;1;1
+75070390;Impuestos Varios;1;1
+75070410;Atenciones a Clientes;1;1
+75070510;Gastos por Exportaciones (Inc.Fletes);1;1
+75070600;Servicios de Terceros;1;1
+11616104;Imp. en trámite: - Cartuchos -;1;1
+11616106;Imp,. en trámite: - Cartuchos -;1;1
+11615295;Importaciones en Trámite ;1;1
+11615297;Importaciones en Trámite;1;1
+11615299;Importaciones en Trámite;1;1
+11616100;Imp. en trámite: - Cartuchos -;1;1
+11616102;Imp. en trámite: - Cartuchos -;1;1
+11616108;Imp, en trámite: - Cartuchos -;1;1
+11616110;Imp,. en trámite: - Cartuchos -;1;1
+11616201;Imp. en trámite: - Kits -;1;1
+11616203;Imp, en trámite: - Kits -;1;1
+11616205;Imp. en trámite: - Kits -;1;1
+11616207;Imp. en trámite: - Kits -;1;1
+11616208;Imp.,en trámite: - Kits -;1;1
+11616300;Imp. en trámite: - Toner -;1;1
+11616302;Imp. en trámite: - Toner -;1;1
+11616304;Imp. en trámite: - Toner -;1;1
+11616306;Imp. en trámite: - Toner -;1;1
+11616308;Imp,. en trámite: - Toner -;1;1
+11616310;Imp. en trámite: - Toner -;1;1
+11616401;Imp. en trámite: - Otros insumos -;1;1
+11616403;Imp. en trámite: - Otros insumos -;1;1
+11616405;Imp. en trámite: - Otros insumos -;1;1
+11616406;Imp. en trámite: - Otros insumos -;1;1
+11616407;Imp. en trámite: - Otros insumos -;1;1
+11616408;Imp. en trámite: - Otros insumos -;1;1
+11616409;Imp. en trámite: - Otros insumos -;1;1
+11616410;Imp,. en trámite: - Otros insumos -;1;1
+11615290;Importaciones en Trámite;1;1
+11615332;Importaciones en Trámite;1;1
+11615334;Importaciones en Trámite;1;1
+11615338;Importaciones en Trámite;1;1
+11615340;Importaciones en Trámite;1;1
+11615341;Importaciones en Trámite;1;1
+11615331;Importaciones en Trámite;1;1
+11615335;Importaciones en Trámite;1;1
+11615337;Importaciones en Trámite;1;1
+11615350;Importaciones en Trámite;1;1
+11615345;Importaciones en Trámite;1;1
+11615349;Importaciones en Trámite;1;1
+75070800;Gastos Varios;1;1
+75070095;Papelería y Otros - Impresiones;1;1
+75070505;Muestras de Terceros;1;1
+70064105;Imp.Emerg.s/Automotores: Automóviles;1;1
+11615364;Importaciones en Trámite;1;1
+11311675;Deudores por Exp. - Insumos Computación -;1;1
+60050095;Vacaciones No Gozadas-Renuncia-;1;1
+75070048;Vacaciones No Gozadas-Renuncia-;1;1
+21424200; I.V.A. Crédito ANSES  FEB;1;1
+11615352;Importaciones en Trámite;1;1
+11311820;Documentos en Suspenso  - Cartuchos;1;1
+60053115;Honorarios Profesionales Reg.Marcas;1;1
+11412622;Intereses a Devengar en: Oct/01;1;1
+11412624;Intereses a Devengar en: Dic/01;1;1
+11412626;Intereses a Devengar en: Feb/02;1;1
+11412628;Intereses a Devengar en: Abr/02;1;1
+75079999;Gtos.Mercaderia de Reventa: Total;2;0
+12419561;Refinanciación Deuda Gatic (Ch-Doc.);1;1
+12419566;Refinanciación Deuda Acetatos Arg. (Ch-Doc.);1;1
+12419650;Refinanciación Deuda Labana (Fac.);1;1
+85085750;Impto.al Débito Bancario (Pérdida);1;1
+11615101;Mat.Primas (STK): Colorantes;1;1
+40090250;Ventas Colorantes (Exportación);1;1
+30033600;Ajuste de Resultados de Ejerc. Anteriores;1;1
+11615354;Importaciones en Trámite;1;1
+11615353;Importaciones en trámite;1;1
+11412699;Intereses a Devengar: Total;2;0
+11514780;Deudores Varios - G.P.B.;1;1
+11615132;Mat.Prima (Comp.): Colorantes;1;1
+21122198;Proveedores Locales: Total;2;1
+40090151;Ventas Insumos Computación (Exp.);1;1
+11615211;Prod.Terminados (STK): Colorantes;1;1
+45091110;Costo Ventas Sust.Qcas.Basicas en Gral.(Exp.);1;1
+45091160;Costo Venta Insumos de Computación (Exp.);1;1
+45091210;Costo Ventas Colorantes (Exp.);1;1
+45091310;Costo Vnetas Prod.Químicos Auxiliares (Exp.);1;1
+11615363;Importacioaciones en Trámite;1;1
+11615361;Importaciones en Trámite;1;1
+11615357;Importaciones en Trámite;1;1
+11616412;Imp,. en trámite: - Otros insumos -;1;1
+11616414;Imp,. en trámite: - Otros insumos -;1;1
+11615401;Importaciones en Trámite;1;1
+11615404;Importaciones en Trámite;1;1
+11615406;Importaciones en Trámite;1;1
+11615409;Importaciones en Trámite;1;1
+11615415;Importaciones en Trámite;1;1
+50040012;Asig.no Remunerativa Dec.1273/02;1;1
+11615448;Importaciones en Trámite;1;1
+11615449;Importaciones en Trámite;1;1
+11615453;Importaciones en Trámite;1;1
+11615454;Importaciones en Trámite;1;1
+11615455;Importaciones en Trámite;1;1
+11615456;Importaciones en Trámite;1;1
+11615457;Importaciones en Trámite;1;1
+11615458;Importaciones en Trámite;1;1
+11615459;Importaciones en Trámite;1;1
+11615460;Importaciones en Trámite;1;1
+11615461;Importaciones en Trámite;1;1
+11615462;Importaciones en Trámite;1;1
+11615463;Importaciones en Trámite;1;1
+11615464;Importaciones en Trámite;1;1
+11615465;Importaciones en Trámite;1;1
+11615466;Importaciones en Trámite;1;1
+11615467;Importaciones en Trámite;1;1
+11615468;Importaciones en Trámite;1;1
+11615469;Importaciones en Trámite;1;1
+11615470;Importaciones en Trámite Embarcadas;1;1
+11615471;Importaciones en Trámite Embarcadas;1;1
+11615472;Importaciones en Trámite Embarcadas;1;1
+11615473;Importaciones en Trámite Embarcadas;1;1
+11615474;Importaciones en Trámite Embarcadas;1;1
+11615475;Importaciones en Trámite Embarcadas;1;1
+11615476;Importaciones en Trámite Embarcadas;1;1
+11615477;Importaciones en Trámite Embarcadas;1;1
+11615478;Importaciones en Trámite Embarcadas;1;1
+11615479;Importaciones en Trámite Embarcadas;1;1
+11615480;Importaciones en Trámite Embarcadas;1;1
+12419100;Deudores por Ventas (Acuerdos Convocatorias);1;1
+70060012;Asig.no Remunerativa Dec.1273/02;1;1
+11110150;Caja Lecops;1;1
+11110298;Banco Nacion Lecops;1;1
+21528710;Acreedores Varios: Sr. E.P.B.;1;1
+11615704;Máquinas Recibidas de 3ros Leasing;1;1
+11412700;Imp.Ing.Btos. a Devengar Dic/2001;1;1
+11412702;Imp.Ing.Btos. a Devengar Feb/2002;1;1
+11412704;Imp.Ing.Btos. a Devengar Abr/2002;1;1
+11412706;Imp.Ing.Btos. a Devengar Jun/2002;1;1
+11412708;Imp.Ing.Btos. a Devengar Ago/2002;1;1
+11412710;Imp.Ing.Btos. a Devengar Oct/2002;1;1
+11412712;Imp.Ing.Btos. a Devengar Dic/2002;1;1
+11412714;Imp.Ing.Btos. a Devengar Feb/2003;1;1
+11412716;Imp.Ing.Btos. a Devengar Abr/2003;1;1
+11412718;Imp.Ing.Btos. a Devengar Jun/2003;1;1
+21424210;IVA a Computar en Set/2002;1;1
+21223072;Banco B.E.A.L.-Prestamo # 2 -Intereses-;1;1
+12323110;Dif.de Cambio a Devengar Año 2003;1;1
+12323130;Dif.de Cambio a Devengar Año 2005;1;1
+30031910;Deudores por Compra Acc. a SGM: JLB;1;1
+30031900;Transferencia de Acciones S.G.M.;1;1
+70064400;Tasas por Servicios Varios-Agua;1;1
+70065000;Cuotas Sociales;1;1
+11615291;Importaciones en Tramite;1;1
+11615293;Importaciones en Tramite;1;1
+82081726;Otros Ingresos Extraordinarios;1;1
+11110291;Banco Ciudad de Bs.As.;1;1
+50040095;Gratif.Compensación Desarraigo;1;1
+50044510;Tasa Municipal Seg.e Higiene;1;1
+21428513;Ret.Rentas Pcia.Bs.As.;1;1
+50041820;Gastos Peajes;1;1
+70061820;Gastos Peajes;1;1
+21323351;Ret.SUSS Ap. Pat. RG.1784;1;1
+11110901;Cuenta Interna Seipac-Santa Rosa;1;1
+50040101;Serv.al Personal - Vestimenta;1;1
+70060101;Serv.al Personal - Vestimenta;1;1
+60054401;Tasas por Servicios - Metrogas;1;1
+70064860;Servicios de Limpieza e Insumos;1;1
+21528510;Contrato de Leasing;1;0
+21528512;Rodados de 3ros. Leasing Automoviles;1;1
+11615706;Rodados 3ros. Leasing Automov.;1;1
+50041811;Gastos Leasing - Utilitarios;1;1
+60051811;Gastos Leasing - Rodados;1;1
+12118011;Edificios: Adic.del Ejercicio Mejoras M.de O.;1;1
+12118012;Edificios: Adic.del Ej.Mejoras Materiales;1;1
+11513780;Ley 25413-Ret I.Gcias.Bco.Patagonia 34%;1;1
+60050620;Materiales e Insumos de Computacion;1;1
+50040621;Materiales e Insumos de Computacion;1;1
+12117067;Obras en Curso:Dirección de Obra ;1;1
+60052310;Seguridad;1;1
+50044860;Servicios de Limpieza, Artículos de limpieza;1;1
+21428502;Imp.Ing.Btos. Sircreb Bancos;1;1
+11513790;Ley 25413-Ret I.Gcias.Bco. Ciudad 33%;1;1
+70064300;Tasas por Servicios -A.B.L.-;1;1
+11110287;Banco Macro;1;1
+11513791;Ley 25413- Ret I.Gcias.Bco.Macro 33%;1;1
+21323322;Leyes Soc.a Pagar: INACAP;1;1
+11110271;Banco Finansur;1;1
+11615365;Importaciones en tramite;1;1
+11615360;importaciones en tramite;1;1
+11615368;importaciones en tramite;1;1
+11615370;importaciones en tramite;1;1
+11615372;importaciones en tramite;1;1
+70064401;Tasas por Servicios - Metrogas;1;1
+21323281;FESTIQYPRA;1;1
+50040510;Cajas y Art. de Embalaje;1;1
+11513730;Iva Cr.Fiscal a Computar;1;1
+21529011;Honorarios a Directores:E.M.BERNARDELLO;1;1
+50040410;Energía Eléctrica Lobos;1;1
+50044410;Tasas por Servicios -Agua-Lobos;1;1
+50049910;Gtos. Varios Caja Lobosl;1;1
+70062360;Gastos Expensas Ventas;1;1
+21323323;Leyes Sociales: Seg.Vida Obligatorio;1;1
+21323324;Leyes Soc.a Pagar: SICOSS Plan de pagos;1;1
+11514790;Deudores Varios - Préstamos Personal;1;1
+11514781;Deudores Varios - E.B.;1;1
+11210400;Cohen Fdo.Común Inv.;1;1
+50041620;Alquiler Equipos: Leasing;1;1
+21428516;Ing.Btos. Percepciones CABA (Clientes);1;1
+30033129;Reserva Prima de Emisión;1;1
+30033110;Ajuste Reserva Legal;1;1
+21424030;Provisión Imp.a las Ganancias;1;1
+21428620;Impuesto a las Gcias. a Pagar;1;1
+21428630;Tasa de Justicia a pagar;1;1
+21428625;Imp.Gcias.Min.Presunta a Pagar;1;1
+30034200;Saldo de Remición RT48;1;1
+12529991;Crédito por Impuestos Ganancias Diferido;4;1
+82081727;Servicios Municipales ;1;1
+82081934;Ingresos por ATP;1;1
+11412172;Anticipos de Clientes;1;1
+30033700;RECPAM - Resultados del Ejercicio;1;1
+12117065;Obras en Curso : Maquinarias y Equipos;1;1
+12118701;Sistemas Contables-Analisis y Programación;1;1
+12118702;Sistemas Contables-Adic.Analisis y Prog.;1;1
+12118705;Sistemas Contables-Depreciación del Ej.;1;1
+12118706;Sistemas Contables-Deprec.Acum.;1;1
+21323185;Retenc.al Personal: O.S. E.W.Hope;1;1
+21323301;Leyes Soc.a Pagar: O.S. E.W.Hope;1;1
+11412601;Intereses a Devengar en : Ene/00;1;1
+11412602;Intereses a Devengar en: Feb/00;1;1
+11412603;Intereses a Devengar en : Mar/00;1;1
+11412604;Intereses a Devengar en: Abr/00;1;1
+11412605;Intereses a Devengar en: May/00;1;1
+11412606;Intereses a Devengar en: Jun/00;1;1
+11412607;Intereses a Devengar en: Jul/00;1;1
+11412608;Intereses a Devengar en: Ago/00;1;1
+11412609;Intereses a Devengar en: Set/00;1;1
+11412610;Intereses a Devengar en: Oct/00;1;1
+11412611;Intereses a Devengar en: Nov/00;1;1
+11412612;Intereses a Devengar en: Dic/00;1;1
+11412613;Intrereses a Devengar en: Ene/01;1;1
+11412614;Intereses a Devengar en: Feb/01;1;1
+11412615;Intereses a Devengar en: Mar/01;1;1
+11412616;Intereses a Devengar en: Abr/01;1;1
+11412617;Intereses a Devengar en: May/01;1;1
+11412618;Intereses a Devengar en: Jun/01;1;1
+11412619;Intereses a Devengar en: Jul/01;1;1
+11412620;Intereses a Devengar en: Ago/01;1;1
+11412621;Intereses a Devengar en: Set/01;1;1
+12419550;Refinanciación Deuda Tiap S.A. (Fac.);1;1
+12118711;Instalaciones Red Sistemas Adiciones;1;1
+12118712;Instalaciones Red Sistemas Deprec.Ejerc.;1;1
+12118713;Instalaciones Red Sistemas Deprec. Acum.;1;1
+12117066;Obras en Curso: Sistemas y/o Computación;1;1
+21528912;Adel.de Clientes Sdo.Acreed.;1;1
+11514160;Imp.Gan.Minima Presunta -  Ant. 7;1;1
+11514180;Imp.Gan.Minima Presunta -  Ant. 9;1;1
+11514195;Imp.Gan.Minima Presunta - Ant.11;1;1
+11311705;Deudores en Gestión Cobro (Ch);1;1
+70064555;Deudores Incobrables (CH);1;1
+60054025;Impuesto Gan. Minima Presunta;1;1
+11514095;Impuesto al CR Bancario (CH);1;1
+11514096;Anticipos Gananc.Min.Presunta;1;1
+11311536;Santa Rosa mutuo Seipac;1;1
+11615141;Merc.de Reventa: Kits (Comp.);1;1
+11615143;Merc.de Reventa: Insumos (Comp.);1;1
+11615231;Merc.de Reventa: Kits (STK);1;1
+11615233;Merc.de Reventa: Mat. Varios (Cajas) (STK);1;1
+21122172;Prov.Loc. p/Export.(S.de C.)Cartuchos y otros;1;1
+40090150;Ventas Insumos de Computación;1;1
+75070000;GASTOS DE COMERC.-MERC.DE REVENTA;94;0
+75070020;Cargas Sociales;1;1
+75070040;Comisióbn a Consignatarios;1;1
+75070047;Gratificaciones;1;1
+75070060;Gastos de Movilidad;1;1
+75070075;Gastos de Automotores;1;1
+75070090;Imprenta y Librería;1;1
+75070105;Teléfonos;1;1
+75070380;Impuestos Ingresos Brutos;1;1
+75070400;Gastos de Propaganda y Publicidad;1;1
+75070500;Muestras;1;1
+75070520;Asesoramiento de 3ros.;1;1
+11616105;Imp. en trámite: - Cartuchos -;1;1
+11616107;Imp. en trámite: - Cartuchos -;1;1
+11615294;Importaciones en Trámire3;1;1
+11615296;Importaciones en Trámite;1;1
+11615298;Importaciones en Trámite;1;1
+11616101;Imp. en trámite: - Cartuchos -;1;1
+11616103;Imp. en trámite : - Cartuchos -;1;1
+11616109;Imp. en trámite: - Cartuchos -;1;1
+11616200;Imp., en trámite: - Kits -;1;1
+11616202;Imp. en trámite: - Kits -;1;1
+11616204;Imp. en trámite: - Kits -;1;1
+11616206;Imp. en trámite: - Kits -;1;1
+11616209;Imp. en trámite: - Kits -;1;1
+11616210;Imp. en trámite: - Kits -;1;1
+11616301;Imp. en trámite: - Toner -;1;1
+11616303;Imp. en trámite: - Toner -;1;1
+11616305;Imp. en trámite: - Toner -;1;1
+11616307;Imp. en trámite: - Toner -;1;1
+11616309;Imp. en trámite: - Toner -;1;1
+11616400;Imp. en trámite: - Oros insumos -;1;1
+11616402;Imp. en trámite: - Otros insumos -;1;1
+11616404;Imp,. en trámite: - Otros insumos -;1;1
+11615347;Importaciones en Trámite;1;1
+11615333;Importaciones en Trámite;1;1
+11615348;Importaciones en Trámite;1;1
+11615342;Importaciones en Trámite;1;1
+11615389;Importaciones en Trámite;1;1
+11615336;Importaciones en Trámite;1;1
+21122105;Prov. Locales Terceros :Cartuchos;1;1
+11615343;Importaciones en Trámite;1;1
+11615344;Importaciones en Trámite;1;1
+11615346;Importaciones en Trámite;1;1
+11615351;Importaciones en Trámite;1;1
+75070530;Honorarios Legales;1;1
+75070430;Representación Exposiciones;1;1
+75070799;Material para Embalaje;1;1
+70064115;Imp.Emergencia s/Automotores: Camiones;1;1
+75070810;Gastos de Exportación;1;1
+50040075;Vacaciones No Gozadas-Renuncia-;1;1
+70060075;Vacaciones No Gozadas-Renuncia-;1;1
+21424100;I.V.A. Crédito ANSES  ENE;1;1
+21424300;I.V.A. Crédito ANSES MAR;1;1
+21424400;I.V.A. Crédito ANSES  ABR;1;1
+21424500;I.V.A. Crédito ANSES  MAY;1;1
+21424600;I.V.A. Crédito ANSES  JUN;1;1
+21424700;I.V.A. Crédito ANSES  JUL;1;1
+21424800;I.V.A. Crédito ANSES  AGO;1;1
+21424899;I.V.A. Setiembre: Total;2;0
+21426100;I.V.A. Crédito ANSES  NOV;1;1
+21425100;I.V.A. Crédito ANSES  OCT;1;1
+21427100;I.V.A. Crédito ANSES  DIC;1;1
+11110340;Valores a Depositar - Cartuchos -;1;1
+11412623;Intereses a Devengar en: Nov/01;1;1
+11412625;Intereses a Devengar en: Ene/02;1;1
+11412627;Intereses a Devengar en: Mar/02;1;1
+21223071;Banco B.E.A.L-Prestamo # 2;1;1
+12419560;Refinanciación Deuda Gatic (Fac);1;1
+12419565;Refinanciación Deuda Acetatos Arg. (Fc.);1;1
+12419660;Refinanciación Deuda Labana (Ch-Doc.);1;1
+11615359;Importaciones en Trámite;1;1
+11615362;Importaciones en Trámite;1;1
+11615358;Importaciones en Trámite;1;1
+11615356;Importaciones en Trámite;1;1
+11616413;Imp,. en trámite: - Otros insumos -;1;1
+11616415;Imp,. en trámite: - Otros insumos -;1;1
+11615403;Importaciones en Trámite;1;1
+11615405;Importaciones en Trámite;1;1
+11615408;Importaciones en Trámite;1;1
+11615411;Importaciones en Trámite;1;1
+11615426;Importaciones en Trámite;1;1
+60050012;Asig.no Remunerativa Dec.1273/02;1;1
+11110296;Banco Provincia Patacones;1;1
+21528705;Acreedores Varios: Dr. J.L.B.;1;1
+11311560;Deudores Leasing (Maquinas);1;1
+11615355;Importaciones en Trámite;1;1
+11412701;Imp.Ing.Btos. a Devengar Ene/2002;1;1
+11412703;Imp.Ing.Btos. a Devengar Mar/2002;1;1
+11412705;Imp.Ing.Btos. a Devengar May/2002;1;1
+11412707;Imp.Ing.Btos. a Devengar Jul/2002;1;1
+11412709;Imp.Ing.Btos. a Devengar Set/2002;1;1
+11412711;Imp.Ing.Btos. a Devengar Nov/2002;1;1
+11412713;Imp.Ing.Btos. a Devengar Ene/2003;1;1
+11412715;Imp.Ing.Btos. a Devengar Mar/2003;1;1
+11412717;Imp.Ing.Btos. a Devengar May/2003;1;1
+11412719;Imp.Ing.Btos. a Devengar Jul/2003;1;1
+11412720;Imp.Ing.Btos. a Devengar Ago/2002;1;1
+11412721;Imp.Ing.Btos. a Devengar Set/2002;1;1
+11412722;Imp.Ing.Btos. a Devengar Oct/2002;1;1
+11412723;Imp.Ing.Btos. a Devengar Nov/2003;1;1
+11412724;Imp.Ing.Btos. a Devengar Dic/2003;1;1
+12323120;Dif.de Cambio a Devengar Año 2004;1;1
+30031920;Deudores por Compra Acc.a SGM: EPB;1;1
+85085350;Presentación Ajte.Form.517: Proveedores;1;1
+11615292;Importaciones en Tramite;1;1
+60053720;Imp.a los Bienes Pers.Societarios;1;1
+21428512;Ing.Btos.Percepcion Clientes Bs.As.;1;1
+21428610;Morotoria a Pagar Seg.e Higiene;1;1
+60051820;Gastos Peajes;1;1
+60050101;Serv.al Personal - Vestimenta;1;1
+50040102;Serv.al Personal-Elementos de Seguridad;1;1
+60054860;Servicios de Limpieza e Insumos;1;1
+11412799;Imp.Ing.Btos. a Devengar: Total;2;0
+21528511;Rodados de 3ros. Leasing Util.;1;1
+11615705;Rodados 3ros. Leasing Utilit.;1;1
+70060620;Materiales e Insumos de Computacion;1;1
+70061811;Gastos Leasing - Rodados;1;1
+60050621;Materiales e Insumos de Computacion;1;1
+70060621;Materiales e Insumos de Computacion;1;1
+21428522;Ing.Btos.San Luis - Actualizacion;1;1
+11615366;Importaciones en tramite;1;1
+11615367;importaciones en tramite;1;1
+11615369;importaciones en tramite;1;1
+11615371;importaciones en tramite;1;1
+21529463;Divid.puesto a dispos:E.M Bernardello;1;1
+50044310;Tasas por Servicios ABL - Lobos;1;1
+50044460;Tasas por Servicios-Gas -Escalada;1;1
+60052360;Gastos Expensas Administracion;1;1
+21428517;Ing.Btos. Retenciones CABA (Proveedores);1;1
+60054402;Tasa Anual IGJ;1;1
+22020001;Pasivo por Imp.ganancias Diferido;94;1
+21323352;Leyes Sociales a Pagar - Cuotas;1;1
