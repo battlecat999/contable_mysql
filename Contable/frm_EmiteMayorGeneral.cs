@@ -96,11 +96,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "exec Carga_Plan_Cuentas ";
-
+          //  strConsulta = "exec Carga_Plan_Cuentas ";
+            strConsulta = "CALL `sgi_pop`.`sp_carga_plan_cuentas`('',0,0);";
             dsCuentas_Disponibles = Entidades.GetDataSet(strConsulta);
 
-            foreach ( System.Data.DataRow dr in dsCuentas_Disponibles.Tables["Table"].Rows)
+            foreach ( System.Data.DataRow dr in dsCuentas_Disponibles.Tables["Table1"].Rows)
             {
                 this.lstCuentas_Disponibles.Items.Add(dr["IdCuenta"]);
             }
@@ -191,11 +191,13 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+            // strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+
+            strConsulta = "CALL `sgi_pop`.`sp_empresas_select_all`();";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
-            cboEmpresas.DataSource = dsEmpresas.Tables["Table"];
+            cboEmpresas.DataSource = dsEmpresas.Tables["Table1"];
 
             this.cboEmpresas.DisplayMember = "RazonSocial";
             this.cboEmpresas.ValueMember = "IdEmpresa";
@@ -303,21 +305,21 @@ namespace Contable
 
             string strSql = string.Empty;
 
-            strSql = "Delete CuentasTMP_Listados ";
+            strSql = "CALL `sgi_pop`.`sp_eliminar_cuentasTMP_listados`();";
 
             int intResultado = Entidades.Ejecuta_Consulta(strSql);
 
             for (int intI = 0; intI < this.lstCuentas_Seleccionadas.Items.Count; intI++)
             {
                 strSql = string.Empty;
-                strSql = "Insert Into CuentasTMP_Listados (NroCuentaTMP) Values ('" + this.lstCuentas_Seleccionadas.Items[intI] + "')";
+                strSql = "CALL `sgi_pop`.`sp_insertar_cuentasTMP_listados`('" + this.lstCuentas_Seleccionadas.Items[intI] + "')";
 
                 intResultado = Entidades.Ejecuta_Consulta(strSql);
             }
 
             strSql = string.Empty;
-            strSql = "Carga_Listado_Mayor_General @codEmpresa = " + intEmpresa + ", @FechaDesde = '" + this.datFecha_Desde.Value.ToString("yyyyMMdd") + "', @FechaHasta = '" + this.datFecha_Hasta.Value.ToString("yyyyMMdd") + "' "; // +"', @strCuentas_Seleccionadas = '" + strCuentas_Seleccionadas + "'";
-
+            //strSql = "Carga_Listado_Mayor_General @codEmpresa = " + intEmpresa + ", @FechaDesde = '" + this.datFecha_Desde.Value.ToString("yyyyMMdd") + "', @FechaHasta = '" + this.datFecha_Hasta.Value.ToString("yyyyMMdd") + "' "; // +"', @strCuentas_Seleccionadas = '" + strCuentas_Seleccionadas + "'";
+            strSql = $"CALL `sgi_pop`.`sp_carga_listado_mayor_general`({intEmpresa}, {this.datFecha_Desde.Value.ToString("yyyyMMdd")}, {this.datFecha_Hasta.Value.ToString("yyyyMMdd")});";
             System.Data.DataTable dtCOPIA_ASIENTOS = new System.Data.DataTable();
             dtCOPIA_ASIENTOS = Entidades.GetDataTable_New(strSql);
 
@@ -868,11 +870,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Exec Carga_Datos_Generales @intEmpresa = " + intEmpresa;
-
+           // strConsulta = "Exec Carga_Datos_Generales @intEmpresa = " + intEmpresa;
+            strConsulta = $"CALL `sgi_pop`.`sp_carga_datos_generales`({intEmpresa});";
             dsDatos_Generales = Entidades.GetDataSet(strConsulta);
 
-            bindingSource_DG.DataSource = dsDatos_Generales.Tables["Table"];
+            bindingSource_DG.DataSource = dsDatos_Generales.Tables["Table1"];
 
             this.datFecha_Desde.DataBindings.Clear();
             this.datFecha_Hasta.DataBindings.Clear();

@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Data.Common;
+using MySql.Data.MySqlClient;
 
 namespace Contable
 {
@@ -39,15 +40,15 @@ namespace Contable
 
             //Byte intEmpresa = (Byte)this.cboPlan_Cuentas.SelectedValue;
 
-            strConsulta = "exec Carga_Plan_Cuentas ";
+            strConsulta = "CALL `sgi_pop`.`sp_carga_plan_cuentas`('',0,0);";
 
             dsPlan_Cuentas = Entidades.GetDataSet(strConsulta);
 
             _dsPlan_Cuentas = dsPlan_Cuentas; 
             _bindingSource.DataSource = null;
-            _bindingSource.DataSource = _dsPlan_Cuentas.Tables["Table"];
+            _bindingSource.DataSource = _dsPlan_Cuentas.Tables["Table1"];
 
-            this.cboPlan_Cuentas.DataSource = dsPlan_Cuentas.Tables["Table"];
+            this.cboPlan_Cuentas.DataSource = dsPlan_Cuentas.Tables["Table1"];
 
             this.cboPlan_Cuentas.DisplayMember = "idCuenta";
             this.cboPlan_Cuentas.ValueMember = "idCuenta";
@@ -67,7 +68,7 @@ namespace Contable
             }
 
             DataRow[] returnedRows;
-            returnedRows = _dsPlan_Cuentas.Tables["Table"].Select("idCuenta = " + this.cboPlan_Cuentas.SelectedValue.ToString() );
+            returnedRows = _dsPlan_Cuentas.Tables["Table1"].Select("idCuenta = " + this.cboPlan_Cuentas.SelectedValue.ToString() );
             DataRow dr1;
             dr1 = returnedRows[0];
 
@@ -177,20 +178,22 @@ namespace Contable
                 intAcepta_Movimientos = 1;
             }
 
-            DbParameter[] Parametros = new DbParameter[4];
 
-            Parametros[0] = new SqlParameter("@strId_Cuenta ", strID_Cuenta);
-            Parametros[1] = new SqlParameter("@strDescripcion ", this.txtDescripcion.Text );
-            Parametros[2] = new SqlParameter("@intNivel ", this.txtNivel.Value);
-            Parametros[3] = new SqlParameter("@intAcepta_Movimientos ", intAcepta_Movimientos);
+            MySqlParameter[] Parametros = new MySqlParameter[4];
+
+            Parametros[0] = new MySqlParameter("@strId_Cuenta", strID_Cuenta);
+            Parametros[1] = new MySqlParameter("@strDescripcion", this.txtDescripcion.Text);
+            Parametros[2] = new MySqlParameter("@intNivel", this.txtNivel.Value);
+            Parametros[3] = new MySqlParameter("@intAcepta_Movimientos", intAcepta_Movimientos);
+
 
             if (!_Alta)
             {
-                intResultado = Entidades.EjecutaNonQuery("Actualiza_Plan_Cuentas", Parametros);
+                intResultado = Entidades.EjecutaNonQuery("sp_actualiza_plan_cuentas", Parametros);
             }
             else
             {
-                intResultado = Entidades.EjecutaNonQuery("Alta_Plan_Cuentas", Parametros);
+                intResultado = Entidades.EjecutaNonQuery("sp_alta_plan_cuentas", Parametros);
             }
 
             if (intResultado > 0)
@@ -281,11 +284,17 @@ namespace Contable
             string strID_Cuenta;
             strID_Cuenta = this.cboPlan_Cuentas.SelectedValue.ToString();
 
-            DbParameter[] Parametros = new DbParameter[1];
+            //DbParameter[] Parametros = new DbParameter[1];
 
-            Parametros[0] = new SqlParameter("@strId_Cuenta ", strID_Cuenta);
+            //Parametros[0] = new SqlParameter("@strId_Cuenta ", strID_Cuenta);
 
-            intResultado = Entidades.EjecutaNonQuery("Elimina_Plan_Cuentas", Parametros);
+
+            MySqlParameter[] Parametros = new MySqlParameter[1];
+
+            Parametros[0] = new MySqlParameter("@strId_Cuenta", strID_Cuenta);
+         
+
+            intResultado = Entidades.EjecutaNonQuery("sp_elimina_plan_cuentas", Parametros);
 
             if (intResultado > 0)
             {
@@ -388,7 +397,7 @@ namespace Contable
 
         private void TxtID_Plan_Cuenta_KeyUp(object sender, KeyEventArgs e)
         {
-            this.SelectNextControl((Control)sender, true, true, true, true);
+         //   this.SelectNextControl((Control)sender, true, true, true, true);
         }
 
         private void CboPlan_Cuentas_KeyUp(object sender, KeyEventArgs e)
@@ -398,17 +407,17 @@ namespace Contable
 
         private void TxtDescripcion_KeyUp(object sender, KeyEventArgs e)
         {
-            this.SelectNextControl((Control)sender, true, true, true, true);
+         //   this.SelectNextControl((Control)sender, true, true, true, true);
         }
 
         private void TxtNivel_KeyUp(object sender, KeyEventArgs e)
         {
-            this.SelectNextControl((Control)sender, true, true, true, true);
+          //  this.SelectNextControl((Control)sender, true, true, true, true);
         }
 
         private void ChkAcepta_Movimientos_KeyUp(object sender, KeyEventArgs e)
         {
-            this.SelectNextControl((Control)sender, true, true, true, true);
+           // this.SelectNextControl((Control)sender, true, true, true, true);
 
         }
     }

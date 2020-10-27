@@ -14,6 +14,7 @@ using System.Data.OleDb;
 
 using System.Data.Common;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace Contable
 {
@@ -78,7 +79,9 @@ namespace Contable
 
             System.Data.DataTable dtDatos_Generales = new System.Data.DataTable();
 
-            strConsulta = "exec Carga_Datos_Generales @intEmpresa = " + Empresa;
+
+
+            strConsulta = $"CALL `sgi_pop`.`sp_carga_datos_generales`({Empresa})";
 
             dtDatos_Generales = Entidades.GetDataTable(strConsulta);
 
@@ -119,15 +122,25 @@ namespace Contable
 
             int intResultado;
 
-            DbParameter[] Parametros = new DbParameter[5];
+            //DbParameter[] Parametros = new DbParameter[5];
 
-            Parametros[0] = new SqlParameter("@intEmpresa ", Empresa);
-            Parametros[1] = new SqlParameter("@datFecha_Inicio_Ejercicio ", this.datFecha_Inicio_Ejercicio_Actual.Value);
-            Parametros[2] = new SqlParameter("@datFecha_Fin_Ejercicio ", this.datFecha_Cierre_Ejercicio_Actual.Value);
-            Parametros[3] = new SqlParameter("@datFecha_Inicio_Ejercicio_Ciclo_Anterior ", this.datFecha_Inicio_Ejercicio_Anterior.Value);
-            Parametros[4] = new SqlParameter("@datFecha_Fin_Ejercicio_Cliclo_Anterior ", this.datFecha_Cierre_Ejercicio_Anterior.Value);
+            //Parametros[0] = new SqlParameter("@intEmpresa ", Empresa);
+            //Parametros[1] = new SqlParameter("@datFecha_Inicio_Ejercicio ", this.datFecha_Inicio_Ejercicio_Actual.Value);
+            //Parametros[2] = new SqlParameter("@datFecha_Fin_Ejercicio ", this.datFecha_Cierre_Ejercicio_Actual.Value);
+            //Parametros[3] = new SqlParameter("@datFecha_Inicio_Ejercicio_Ciclo_Anterior ", this.datFecha_Inicio_Ejercicio_Anterior.Value);
+            //Parametros[4] = new SqlParameter("@datFecha_Fin_Ejercicio_Cliclo_Anterior ", this.datFecha_Cierre_Ejercicio_Anterior.Value);
 
-            intResultado = Entidades.EjecutaNonQuery("Alta_Datos_Generales", Parametros);
+
+            MySqlParameter[] Parametros = new MySqlParameter[5];
+
+            Parametros[0] = new MySqlParameter("@intEmpresa", Empresa);
+            Parametros[1] = new MySqlParameter("@datFecha_Inicio_Ejercicio", this.datFecha_Inicio_Ejercicio_Actual.Value);
+            Parametros[2] = new MySqlParameter("@datFecha_Fin_Ejercicio", this.datFecha_Cierre_Ejercicio_Actual.Value);
+            Parametros[3] = new MySqlParameter("@datFecha_Inicio_Ejercicio_Ciclo_Anterior", this.datFecha_Inicio_Ejercicio_Anterior.Value);
+            Parametros[4] = new MySqlParameter("@datFecha_Fin_Ejercicio_Cliclo_Anterior", this.datFecha_Cierre_Ejercicio_Anterior.Value);
+     
+
+            intResultado = Entidades.EjecutaNonQuery("sp_alta_datos_generales", Parametros);
 
         }
 

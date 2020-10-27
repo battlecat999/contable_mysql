@@ -48,14 +48,23 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+            strConsulta = "CALL `sgi_pop`.`sp_empresas_select_all`();";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
-            cboEmpresas.DataSource = dsEmpresas.Tables["Table"];
+            cboEmpresas.DataSource = dsEmpresas.Tables["Table1"];
 
             this.cboEmpresas.DisplayMember = "RazonSocial";
             this.cboEmpresas.ValueMember = "IdEmpresa";
+
+            //strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+
+            //dsEmpresas = Entidades.GetDataSet(strConsulta);
+
+            //cboEmpresas.DataSource = dsEmpresas.Tables["Table"];
+
+            //this.cboEmpresas.DisplayMember = "RazonSocial";
+            //this.cboEmpresas.ValueMember = "IdEmpresa";
 
         }
 

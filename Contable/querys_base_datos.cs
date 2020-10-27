@@ -26,7 +26,7 @@ namespace Contable
             //cmmd.Parameters.AddWithValue("@_userName", user);
             //cmmd.Parameters.AddWithValue("@_passName", pass);
 
-            string sql = string.Concat("select * from Usuarios where idUsuario='",user,"' AND Password='",pass,"'");
+            string sql = $"CALL `sgi_pop`.`sp_loginUsr`('{user}', '{pass}');";
             dsUsuarios = Entidades.GetDataSet(sql);
             leer = dsUsuarios.Tables[0];
             //Conexion.CerrarConexion();

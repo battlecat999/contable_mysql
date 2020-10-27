@@ -14,6 +14,8 @@ using System.Runtime.InteropServices;
 
 using System.Collections;
 using System.Globalization;
+using MySql.Data.MySqlClient;
+
 namespace Contable
 {
     public partial class ABM_Empresas : Form
@@ -64,11 +66,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+            strConsulta = "CALL `sgi_pop`.`sp_empresas_select_all`();";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
-            cboEmpresas.DataSource = dsEmpresas.Tables["Table"];
+            cboEmpresas.DataSource = dsEmpresas.Tables["Table1"];
 
             this.cboEmpresas.DisplayMember = "RazonSocial";
             this.cboEmpresas.ValueMember = "IdEmpresa";
@@ -89,7 +91,7 @@ namespace Contable
 
             if (this.cboEmpresas.SelectedIndex != -1)
             {
-                intEmpresa = (Byte)this.cboEmpresas.SelectedValue;
+                intEmpresa = (byte)this.cboEmpresas.SelectedValue;
 
                 esNueva = false;
             }
@@ -110,23 +112,25 @@ namespace Contable
                 intPais = Convert.ToInt32(this.cboPais.SelectedValue);
             }
 
-            DbParameter[] Parametros = new DbParameter[7];
 
-            Parametros[0] = new SqlParameter("@intEmpresa", intEmpresa);
-            Parametros[1] = new SqlParameter("@strRazonSocial", strRazonSocial);
-            Parametros[2] = new SqlParameter("@strDomicilio", strDireccion);
-            Parametros[3] = new SqlParameter("@strLocalidad", strLocalidad);
-            Parametros[4] = new SqlParameter("@intPais", intPais);
-            Parametros[5] = new SqlParameter("@intProvincia", intProvincia);
-            Parametros[6] = new SqlParameter("@strCUIT", this.mskCUIT.Text.ToString());
+            MySqlParameter[] Parametros = new MySqlParameter[7];
+
+            Parametros[0] = new MySqlParameter("@intEmpresa", (int)intEmpresa);
+            Parametros[1] = new MySqlParameter("@strRazonSocial", strRazonSocial);
+            Parametros[2] = new MySqlParameter("@strDomicilio", strDireccion);
+            Parametros[3] = new MySqlParameter("@strLocalidad", strLocalidad);
+            Parametros[4] = new MySqlParameter("@intPais", intPais);
+            Parametros[5] = new MySqlParameter("@intProvincia", intProvincia);
+            Parametros[6] = new MySqlParameter("@strCUIT", this.mskCUIT.Text.ToString());
+
 
             if (esNueva == true)
             {
-                int intRta = Entidades.EjecutaNonQuery("Alta_Empresa", Parametros);
+                int intRta = Entidades.EjecutaNonQuery("sp_alta_empresa", Parametros);
             }
             else
             {
-                int intRta = Entidades.EjecutaNonQuery("Actualiza_Empresa", Parametros);
+                int intRta = Entidades.EjecutaNonQuery("sp_actualiza_empresa", Parametros);
             }
 
             Carga_Combo_Empresas();
@@ -153,12 +157,12 @@ namespace Contable
             
 
             //strConsulta = " exec Carga_Asiento @intEmpresa = " + this.Empresa + ", @intAnio = " + this.txtAnio.Value.ToString();
-            strConsulta = " exec cargar_datos_empresa @intEmpresa = " + intEmpresa;
+            strConsulta = $"CALL `sgi_pop`.`cargar_datos_empresa`({intEmpresa});";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
             DataRow[] returnedRows;
-            returnedRows = dsEmpresas.Tables["Table"].Select("IdEmpresa = " + this.cboEmpresas.SelectedValue);
+            returnedRows = dsEmpresas.Tables["Table1"].Select("IdEmpresa = " + this.cboEmpresas.SelectedValue);
             DataRow dr1;
             dr1 = returnedRows[0];
             //IdEmpresa RazonSocial                    Domicilio                      Localidad                      Pais   Provincia CUIT
@@ -181,15 +185,15 @@ namespace Contable
 
            // Byte intEmpresa = (Byte)this.cboEmpresas.SelectedValue;
 
-            strConsulta = "exec Carga_Provincias ";
+            strConsulta = "CALL `sgi_pop`.`sp_carga_Provincias`();";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
             _dsProvincias = dsEmpresas;
             _bindingSource.DataSource = null;
-            _bindingSource.DataSource = dsEmpresas.Tables["Table"];
+            _bindingSource.DataSource = dsEmpresas.Tables["Table1"];
 
-            this.cboProvincia.DataSource = _dsProvincias.Tables["Table"];
+            this.cboProvincia.DataSource = _dsProvincias.Tables["Table1"];
 
             this.cboProvincia.ValueMember = "IdProvincia";
             this.cboProvincia.DisplayMember = "NombreProvincia";
@@ -205,15 +209,15 @@ namespace Contable
 
            // Byte intEmpresa = (Byte)this.cboEmpresas.SelectedValue;
 
-            strConsulta = "exec Carga_Paises ";
+            strConsulta = "CALL `sgi_pop`.`sp_carga_Paises`();";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
             _dsPais = dsEmpresas;
             _bindingSource.DataSource = null;
-            _bindingSource.DataSource = dsEmpresas.Tables["Table"];
+            _bindingSource.DataSource = dsEmpresas.Tables["Table1"];
 
-            this.cboPais.DataSource = _dsPais.Tables["Table"];
+            this.cboPais.DataSource = _dsPais.Tables["Table1"];
 
             this.cboPais.ValueMember = "IdPais";
             this.cboPais.DisplayMember = "NombrePais";

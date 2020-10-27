@@ -15,6 +15,7 @@ using System.Runtime.InteropServices;
 using System.Collections;
 using System.Globalization;
 using System.Text.RegularExpressions;
+using MySql.Data.MySqlClient;
 
 namespace Contable
 {
@@ -159,15 +160,15 @@ namespace Contable
             Byte intEmpresa = (Byte)this.cboEmpresas.SelectedValue;
 
             //strConsulta = "exec Carga_Asiento @intEmpresa = " + this.Empresa + ", @intAnio = " + this.txtAnio.Value.ToString();
-            strConsulta = "exec Carga_Asiento @intEmpresa = " + intEmpresa + ", @intAnio = " + this.txtAnio.Value.ToString();
+            strConsulta = $"CALL `sgi_pop`.`sp_carga_asiento`({intEmpresa}, {this.txtAnio.Value.ToString()}, 0 ,'');";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
             _dsAsientos = dsEmpresas;
             _bindingSource.DataSource = null;
-            _bindingSource.DataSource = dsEmpresas.Tables["Table"];
+            _bindingSource.DataSource = dsEmpresas.Tables["Table1"];
 
-            this.cboAsientos.DataSource = _dsAsientos.Tables["Table"];
+            this.cboAsientos.DataSource = _dsAsientos.Tables["Table1"];
 
             this.cboAsientos.DisplayMember = "IdAsientto";
             this.cboAsientos.ValueMember = "IdAsiento";
@@ -187,7 +188,8 @@ namespace Contable
             Byte intEmpresa = (Byte)this.cboEmpresas.SelectedValue;
 
             //strConsulta = "exec Carga_Asiento @intEmpresa = " + this.Empresa + ", @intAnio = " + this.txtAnio.Value.ToString();
-            strConsulta = "exec Carga_Asiento @intEmpresa = " + intEmpresa + ", @intAnio = " + this.txtAnio.Value.ToString();
+           // strConsulta = "exec Carga_Asiento @intEmpresa = " + intEmpresa + ", @intAnio = " + this.txtAnio.Value.ToString();
+            strConsulta = $"CALL `sgi_pop`.`sp_carga_asiento`({intEmpresa}, {this.txtAnio.Value.ToString()}, 0 ,'');";
 
             //if (this.cboAsientos.SelectedIndex != -1)
             //{
@@ -196,7 +198,7 @@ namespace Contable
 
             dsComprobantes = Entidades.GetDataSet(strConsulta);
 
-            this.cboComprobantes.DataSource = dsComprobantes.Tables["Table"];
+            this.cboComprobantes.DataSource = dsComprobantes.Tables["Table1"];
 
             this.cboComprobantes.DisplayMember = "Numero_Comprobante";
             this.cboComprobantes.ValueMember = "IdAsiento";
@@ -217,13 +219,14 @@ namespace Contable
             Int32 intAsiento = (Int32)this.cboAsientos.SelectedValue;
 
             //strConsulta = " exec Carga_Asiento @intEmpresa = " + this.Empresa + ", @intAnio = " + this.txtAnio.Value.ToString();
-            strConsulta = " exec Carga_Item_Asiento @intEmpresa = " + intEmpresa + ", @intAnio = " + this.txtAnio.Value.ToString() + ", @intAsiento = " + intAsiento;
+       //     strConsulta = " exec Carga_Item_Asiento @intEmpresa = " + intEmpresa + ", @intAnio = " + this.txtAnio.Value.ToString() + ", @intAsiento = " + intAsiento; 
+        strConsulta = $"CALL `sgi_pop`.`sp_carga_item_asiento`({intEmpresa}, {this.txtAnio.Value.ToString()}, {intAsiento} ,'');";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
             this.grdAsientos.AutoGenerateColumns = false;
             this.grdAsientos.DataSource = dsEmpresas;
-            this.grdAsientos.DataMember = "Table";
+            this.grdAsientos.DataMember = "Table1";
 
         }
 
@@ -234,11 +237,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+            strConsulta = "CALL `sgi_pop`.`sp_empresas_select_all`();";
 
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
-            cboEmpresas.DataSource = dsEmpresas.Tables["Table"];
+            cboEmpresas.DataSource = dsEmpresas.Tables["Table1"];
 
             this.cboEmpresas.DisplayMember = "RazonSocial";
             this.cboEmpresas.ValueMember = "IdEmpresa";
@@ -254,11 +257,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "exec Carga_Estados_Asientos ";
+            strConsulta = "CALL `sgi_pop`.`sp_Carga_Estados_Asientos`();";
 
             dsEstados = Entidades.GetDataSet(strConsulta);
 
-            this.cboEstados.DataSource = dsEstados.Tables["Table"];
+            this.cboEstados.DataSource = dsEstados.Tables["Table1"];
 
             this.cboEstados.DisplayMember = "Descripcion";
             this.cboEstados.ValueMember = "Descripcion";
@@ -479,7 +482,7 @@ namespace Contable
             this.cboComprobantes.SelectedValue = this.cboAsientos.SelectedValue;
 
             DataRow[] returnedRows;
-            returnedRows = _dsAsientos.Tables["Table"].Select("IdAsiento = " + this.cboAsientos.SelectedValue);
+            returnedRows = _dsAsientos.Tables["Table1"].Select("IdAsiento = " + this.cboAsientos.SelectedValue);
             DataRow dr1;
             dr1 = returnedRows[0];
 
@@ -570,7 +573,9 @@ namespace Contable
 
             string strConsulta = string.Empty;
 
-            strConsulta = "exec Carga_Plan_Cuenta ";
+           // strConsulta = "exec Carga_Plan_Cuenta ";
+
+            strConsulta = "CALL `sgi_pop`.`sp_carga_plan_cuenta`();";
 
             _dsCuentas = Entidades.GetDataSet(strConsulta);
 
@@ -603,27 +608,49 @@ namespace Contable
                 strNumero_Comprobante = this.cboComprobantes.Text.Trim();
             }
 
-            DbParameter[] Parametros = new DbParameter[8];
+            //DbParameter[] Parametros = new DbParameter[8];
 
-            Parametros[0] = new SqlParameter("@intEmpresa", intEmpresa);
-            Parametros[1] = new SqlParameter("@intAnio", intAnio);
+            //Parametros[0] = new SqlParameter("@intEmpresa", intEmpresa);
+            //Parametros[1] = new SqlParameter("@intAnio", intAnio);
+
+            //if (this.cboAsientos.SelectedIndex != -1)
+            //{
+            //    Parametros[2] = new SqlParameter("@intAsiento", intAsiento);
+            //}
+            //else
+            //{
+            //    Parametros[2] = new SqlParameter("@intAsiento", DBNull.Value);
+            //}
+
+            //Parametros[3] = new SqlParameter("@datFecha_Asiento", datFecha_Asiento);
+            //Parametros[4] = new SqlParameter("@strLeyenda_Asiento", strLeyenda_Asiento);
+            //Parametros[5] = new SqlParameter("@intNumero_Interno_Asiento", DBNull.Value);
+            //Parametros[6] = new SqlParameter("@strEstado", strEstado);
+            //Parametros[7] = new SqlParameter("@strNumero_Comprobante", strNumero_Comprobante);
+
+
+            MySqlParameter[] Parametros = new MySqlParameter[8];
+
+            Parametros[0] = new MySqlParameter("@intEmpresa", (int)intEmpresa);
+            Parametros[1] = new MySqlParameter("@intAnio", intAnio);
 
             if (this.cboAsientos.SelectedIndex != -1)
             {
-                Parametros[2] = new SqlParameter("@intAsiento", intAsiento);
+                Parametros[2] = new MySqlParameter("@intAsiento", intAsiento);
+
             }
             else
             {
-                Parametros[2] = new SqlParameter("@intAsiento", DBNull.Value);
+                Parametros[2] = new MySqlParameter("@intAsiento", 0);
             }
+             Parametros[3] = new MySqlParameter("@datFecha_Asiento", datFecha_Asiento);
+             Parametros[4] = new MySqlParameter("@strLeyenda_Asiento", strLeyenda_Asiento);
+             Parametros[5] = new MySqlParameter("@intNumero_Interno_Asiento", 0);
+             Parametros[6] = new MySqlParameter("@strEstado", strEstado);
+             Parametros[7] = new MySqlParameter("@strNumero_Comprobante", strNumero_Comprobante);
 
-            Parametros[3] = new SqlParameter("@datFecha_Asiento", datFecha_Asiento);
-            Parametros[4] = new SqlParameter("@strLeyenda_Asiento", strLeyenda_Asiento);
-            Parametros[5] = new SqlParameter("@intNumero_Interno_Asiento", DBNull.Value);
-            Parametros[6] = new SqlParameter("@strEstado", strEstado);
-            Parametros[7] = new SqlParameter("@strNumero_Comprobante", strNumero_Comprobante);
 
-            int intRta = Entidades.EjecutaNonQuery("Alta_Asiento", Parametros);
+            int intRta = Entidades.EjecutaNonQuery("sp_alta_asiento", Parametros);
 
         }
 
@@ -665,13 +692,19 @@ namespace Contable
             if (this.cboAsientos.SelectedIndex != -1)
             {
 
-                DbParameter[] Parametros_Eliminar = new DbParameter[3];
+                //DbParameter[] Parametros_Eliminar = new DbParameter[3];
 
-                Parametros_Eliminar[0] = new SqlParameter("@intEmpresa", intEmpresa);
-                Parametros_Eliminar[1] = new SqlParameter("@intAnio", intAnio);
-                Parametros_Eliminar[2] = new SqlParameter("@intAsiento", intAsiento);
+                //Parametros_Eliminar[0] = new SqlParameter("@intEmpresa", intEmpresa);
+                //Parametros_Eliminar[1] = new SqlParameter("@intAnio", intAnio);
+                //Parametros_Eliminar[2] = new SqlParameter("@intAsiento", intAsiento);
 
-                intRta = Entidades.EjecutaNonQuery("Elimina_ItemAsiento", Parametros_Eliminar);
+                MySqlParameter[] Parametros = new MySqlParameter[3];
+
+                Parametros[0] = new MySqlParameter("@intEmpresa", (int)intEmpresa);
+                Parametros[1] = new MySqlParameter("@intAnio", intAnio);
+                Parametros[2] = new MySqlParameter("@intAsiento", intAsiento);
+
+                intRta = Entidades.EjecutaNonQuery("sp_elimina_itemAsiento", Parametros);
 
                 if (intRta == -1) { return; }
 
@@ -699,11 +732,16 @@ namespace Contable
 
                     if (this.cboAsientos.SelectedIndex != -1)
                     {
-                        strSql = "exec Alta_ItemAsiento @intEmpresa = " + intEmpresa + ", @intAnio = " + intAnio + ", @intAsiento = " + intAsiento + ", @strCuenta = '" + strCuenta + "', @strLeyenda_Item = '" + strLeyenda_Item + "', @decDebe = " + decDebe + ", @decHaber = " + decHaber + ", @strNumero_Comprobante = '" + strNumero_Comprobante + "' ";
+                        
+                        //strSql = "exec Alta_ItemAsiento @intEmpresa = " + intEmpresa + ", @intAnio = " + intAnio + ", @intAsiento = " + intAsiento + ", @strCuenta = '" + strCuenta + "', @strLeyenda_Item = '" + strLeyenda_Item + "', @decDebe = " + decDebe + ", @decHaber = " + decHaber + ", @strNumero_Comprobante = '" + strNumero_Comprobante + "' ";
+                        strSql = $"CALL `sgi_pop`.`sp_alta_itemAsiento`({intEmpresa}, { intAnio }, {intAsiento }, { strCuenta }, '{ strLeyenda_Item}', { decDebe}, {decHaber}, { strNumero_Comprobante })";
+
                     }
                     else
                     {
-                        strSql = "exec Alta_ItemAsiento @intEmpresa = " + intEmpresa + ", @intAnio = " + intAnio + ", @intAsiento = Null, @strCuenta = '" + strCuenta + "', @strLeyenda_Item = '" + strLeyenda_Item + "', @decDebe = " + decDebe + ", @decHaber = " + decHaber + ", @strNumero_Comprobante = '" + strNumero_Comprobante + "' ";
+                       // strSql = "exec Alta_ItemAsiento @intEmpresa = " + intEmpresa + ", @intAnio = " + intAnio + ", @intAsiento = Null, @strCuenta = '" + strCuenta + "', @strLeyenda_Item = '" + strLeyenda_Item + "', @decDebe = " + decDebe + ", @decHaber = " + decHaber + ", @strNumero_Comprobante = '" + strNumero_Comprobante + "' ";
+                        strSql = $"CALL `sgi_pop`.`sp_alta_itemAsiento`({intEmpresa}, { intAnio }, {0}, { strCuenta }, '{ strLeyenda_Item}', { decDebe}, {decHaber}, { strNumero_Comprobante })";
+
                     }
 
                     intRta = Entidades.Ejecuta_Consulta(strSql);
@@ -1424,11 +1462,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Exec Carga_Datos_Generales @intEmpresa = " + intEmpresa;
+            strConsulta = $"CALL `sgi_pop`.`sp_carga_datos_generales`({intEmpresa});"  ;
 
             dsDatos_Generales = Entidades.GetDataSet(strConsulta);
 
-            bindingSource_DG.DataSource = dsDatos_Generales.Tables["Table"];
+            bindingSource_DG.DataSource = dsDatos_Generales.Tables["Table1"];
 
             this.datFecha_Inicio_Ejercicio.DataBindings.Clear();
             this.datFecha_Cierre_Ejercicio.DataBindings.Clear();

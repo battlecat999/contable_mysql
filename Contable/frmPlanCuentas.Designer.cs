@@ -227,7 +227,7 @@
             this.txtID_Plan_Cuenta.Name = "txtID_Plan_Cuenta";
             this.txtID_Plan_Cuenta.Size = new System.Drawing.Size(201, 20);
             this.txtID_Plan_Cuenta.TabIndex = 2;
-            this.txtID_Plan_Cuenta.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtID_Plan_Cuenta_KeyUp);
+           // this.txtID_Plan_Cuenta.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtID_Plan_Cuenta_KeyUp);
             // 
             // btnNuevo
             // 

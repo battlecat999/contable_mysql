@@ -340,11 +340,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
-
+           // strConsulta = "select IdEmpresa, RazonSocial From Empresa Order By RazonSocial ";
+            strConsulta = "CALL `sgi_pop`.`sp_empresas_select_all`();";
             dsEmpresas = Entidades.GetDataSet(strConsulta);
 
-            cboEmpresas.DataSource = dsEmpresas.Tables["Table"];
+            cboEmpresas.DataSource = dsEmpresas.Tables["Table1"];
 
             this.cboEmpresas.DisplayMember = "RazonSocial";
             this.cboEmpresas.ValueMember = "IdEmpresa";
@@ -368,11 +368,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Carga_Combo_Asientos_Desde @intEmpresa = " + intEmpresa + ", @intOrden_Por_Asiento = " + intOrder_Por_Numero_Asiento;
-
+            //strConsulta = "Carga_Combo_Asientos_Desde @intEmpresa = " + intEmpresa + ", @intOrden_Por_Asiento = " + intOrder_Por_Numero_Asiento;
+            strConsulta=$"CALL `sgi_pop`.`sp_carga_combo_asientos_desde`({intEmpresa},{intOrder_Por_Numero_Asiento},0 );";
             dsAsientos_Desde = Entidades.GetDataSet(strConsulta);
 
-            this.cboAsiento_Desde.DataSource = dsAsientos_Desde.Tables["Table"];
+            this.cboAsiento_Desde.DataSource = dsAsientos_Desde.Tables["Table1"];
 
             this.cboAsiento_Desde.DisplayMember = "IdAsiento";
             this.cboAsiento_Desde.ValueMember = "IdAsiento";
@@ -403,16 +403,22 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Carga_Combo_Asientos_Desde @intEmpresa = " + intEmpresa + ", @intOrden_Por_Asiento = " + intOrder_Por_Numero_Asiento;
-
+          //  strConsulta = "Carga_Combo_Asientos_Desde @intEmpresa = " + intEmpresa + ", @intOrden_Por_Asiento = " + intOrder_Por_Numero_Asiento;
             if (this.cboAsiento_Desde.SelectedIndex != -1)
             { 
-                strConsulta += ", @intIdAsiento_Desde = " + intAsiento_Desde;
+               // strConsulta += ", @intIdAsiento_Desde = " + intAsiento_Desde;
+                strConsulta = $"CALL `sgi_pop`.`sp_carga_combo_asientos_desde`({intEmpresa},{intOrder_Por_Numero_Asiento},{intAsiento_Desde} );";
+
+            }
+            else
+            {
+                strConsulta = $"CALL `sgi_pop`.`sp_carga_combo_asientos_desde`({intEmpresa},{intOrder_Por_Numero_Asiento},0);";
+
             }
 
             dsAsientos_Hasta = Entidades.GetDataSet(strConsulta);
 
-            this.cboAsiento_Hasta.DataSource = dsAsientos_Hasta.Tables["Table"];
+            this.cboAsiento_Hasta.DataSource = dsAsientos_Hasta.Tables["Table1"];
 
             this.cboAsiento_Hasta.DisplayMember = "IdAsiento";
             this.cboAsiento_Hasta.ValueMember = "IdAsiento";
@@ -927,11 +933,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Exec Carga_Datos_Generales @intEmpresa = " + intEmpresa;
-
+           // strConsulta = "Exec Carga_Datos_Generales @intEmpresa = " + intEmpresa;
+            strConsulta = $"CALL `sgi_pop`.`sp_carga_datos_generales`({intEmpresa})";
             dsDatos_Generales = Entidades.GetDataSet(strConsulta);
 
-            bindingSource_DG.DataSource = dsDatos_Generales.Tables["Table"];
+            bindingSource_DG.DataSource = dsDatos_Generales.Tables["Table1"];
 
             this.datFecha_Desde.DataBindings.Clear();
             this.datFecha_Hasta.DataBindings.Clear();

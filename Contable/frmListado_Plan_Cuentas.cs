@@ -42,11 +42,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Exec Carga_Plan_Cuentas ";
+            strConsulta = "CALL `sgi_pop`.`sp_carga_plan_cuentas`('',0,0);";
 
             dsCuentas_Desde = Entidades.GetDataSet(strConsulta);
 
-            cboCuentas_Desde.DataSource = dsCuentas_Desde.Tables["Table"];
+            cboCuentas_Desde.DataSource = dsCuentas_Desde.Tables["Table1"];
 
             this.cboCuentas_Desde.DisplayMember = "IdCuenta";
             this.cboCuentas_Desde.ValueMember = "IdCuenta";
@@ -62,11 +62,11 @@ namespace Contable
 
             string strConsulta = "";
 
-            strConsulta = "Exec Carga_Plan_Cuentas ";
+            strConsulta = "CALL `sgi_pop`.`sp_carga_plan_cuentas`('',0,0);";
 
             dsCuentas_Hasta = Entidades.GetDataSet(strConsulta);
 
-            cboCuentas_Hasta.DataSource = dsCuentas_Hasta.Tables["Table"];
+            cboCuentas_Hasta.DataSource = dsCuentas_Hasta.Tables["Table1"];
 
             this.cboCuentas_Hasta.DisplayMember = "IdCuenta";
             this.cboCuentas_Hasta.ValueMember = "IdCuenta";
