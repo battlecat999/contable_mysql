@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Inicial));
             this.mnuVertical = new System.Windows.Forms.Panel();
+            this.btn_Despachante = new System.Windows.Forms.Button();
             this.btnListado_Plan_Cuentas = new System.Windows.Forms.Button();
             this.btn_Empresa = new System.Windows.Forms.Button();
             this.btnPlan_Cuentas = new System.Windows.Forms.Button();
@@ -63,6 +64,7 @@
             // mnuVertical
             // 
             this.mnuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(34)))), ((int)(((byte)(35)))));
+            this.mnuVertical.Controls.Add(this.btn_Despachante);
             this.mnuVertical.Controls.Add(this.btnListado_Plan_Cuentas);
             this.mnuVertical.Controls.Add(this.btn_Empresa);
             this.mnuVertical.Controls.Add(this.btnPlan_Cuentas);
@@ -80,6 +82,22 @@
             this.mnuVertical.Size = new System.Drawing.Size(250, 800);
             this.mnuVertical.TabIndex = 0;
             this.mnuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.mnuVertical_Paint);
+            // 
+            // btn_Despachante
+            // 
+            this.btn_Despachante.FlatAppearance.BorderSize = 0;
+            this.btn_Despachante.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btn_Despachante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Despachante.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Despachante.ForeColor = System.Drawing.Color.White;
+            this.btn_Despachante.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Despachante.Location = new System.Drawing.Point(3, 632);
+            this.btn_Despachante.Name = "btn_Despachante";
+            this.btn_Despachante.Size = new System.Drawing.Size(250, 45);
+            this.btn_Despachante.TabIndex = 3;
+            this.btn_Despachante.Text = "Fact. Despachante";
+            this.btn_Despachante.UseVisualStyleBackColor = true;
+            this.btn_Despachante.Click += new System.EventHandler(this.btn_Despachante_Click);
             // 
             // btnListado_Plan_Cuentas
             // 
@@ -389,6 +407,7 @@
         private System.Windows.Forms.PictureBox pcerrar;
         private System.Windows.Forms.Button btn_diccionario;
         private System.Windows.Forms.Button btn_Asientos;
+        private System.Windows.Forms.Button btn_Despachante;
         private System.Windows.Forms.Button btn_Copia_Asientos;
         private System.Windows.Forms.Button btnSumas_Saldos;
         private System.Windows.Forms.Label label1;

@@ -113,6 +113,10 @@ namespace Contable
             AbrirFormInPanel(new frmAsientos() );
         }
 
+        private void btn_Despachante_Click(object sender, EventArgs e)
+        {
+            AbrirFormInPanel(new frm_Alta_Factura_Despachante() );
+        }
 
         private void btn_Copia_Asientos_Click(object sender, EventArgs e)
         {
@@ -154,12 +158,23 @@ namespace Contable
 
             funciones_varias fv = new funciones_varias();
 
-            //if (fv.leerLicencia() == false)
-            //{
-            //    MessageBox.Show("Error de parametrización. Comuniquese con Soporte Técnico", "Atención", MessageBoxButtons.OK);
-            //    Application.Exit();
-            //}
-
+            if (fv.leerLicencia() == false)
+            {
+                MessageBox.Show("Error de parametrización. Comuniquese con Soporte Técnico", "Atención", MessageBoxButtons.OK);
+                Application.Exit();
+            }
+            string strMuestraFacturaDespachante = string.Empty;
+            strMuestraFacturaDespachante = ConfigurationManager.AppSettings["MuestraFacturaDespachante"];
+            if (strMuestraFacturaDespachante == "1")
+            {
+                this.btn_Despachante.Visible = false;
+                this.btnListado_Subdiario_Compras.Visible = false;
+            }
+            else
+            {
+                this.btn_Despachante.Visible = true;
+                this.btnListado_Subdiario_Compras.Visible = true;
+            }
 
             Cargar_Logo();
 
