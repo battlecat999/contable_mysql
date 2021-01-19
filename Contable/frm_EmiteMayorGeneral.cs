@@ -849,13 +849,20 @@ namespace Contable
 
             int intResultado = Entidades.Ejecuta_Consulta(strSql);
 
+
+            strSql = string.Empty;
             for (int intI = 0; intI < this.lstCuentas_Seleccionadas.Items.Count; intI++)
             {
-                strSql = string.Empty;
-                strSql = "Insert Into CuentasTMP_Listados (NroCuentaTMP) Values ('" + this.lstCuentas_Seleccionadas.Items[intI] + "')";
+                
+                strSql = string.Concat(strSql,"Insert Into CuentasTMP_Listados (NroCuentaTMP) Values ('" + this.lstCuentas_Seleccionadas.Items[intI] + "');", Environment.NewLine);
 
+                
+            }
+            if (strSql!=string.Empty )
+            {
                 intResultado = Entidades.Ejecuta_Consulta(strSql);
             }
+            
 
         }
 

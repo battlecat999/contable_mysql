@@ -145,9 +145,9 @@ namespace Contable
         {
             if (e.KeyCode == Keys.F11)
             {
-                txtuser.Text = "egonzalez";
+                txtuser.Text = "marco";
                 txtpass.UseSystemPasswordChar = true;
-                txtpass.Text = "2123";
+                txtpass.Text = "1234";
                 btnAcceder_Click(sender,e);
                 
 
